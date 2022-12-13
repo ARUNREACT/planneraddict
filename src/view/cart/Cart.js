@@ -37,7 +37,7 @@ export const Contactus = () => {
           <div className='col-xl-10 col-12'>
             <h3>𝐏𝐥𝐚𝐧𝐧𝐞𝐫 𝐀𝐝𝐝𝐢𝐜𝐭 - 𝐘𝐨𝐮𝐫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐖𝐞𝐝𝐝𝐢𝐧𝐠 𝐏𝐥𝐚𝐧𝐧𝐞𝐫</h3>
             <h2>𝓟𝓵𝓪𝓷 𝔂𝓸𝓾𝓻 𝔀𝓮𝓭𝓭𝓲𝓷𝓰 𝔀𝓲𝓽𝓱 𝓤𝓼</h2>
-            <p className='mt-3'>WedMeGood is your personal wedding planning site. Browse through the site to find vendors for your wedding. Explore wedding inspiration & ideas and our very popular wedding blog to prepare for your wedding following latest trends. Contact us for more details.</p>
+            <p className='mt-3'>PlannerAddict is your personal wedding planning site. Browse through the site to find vendors for your wedding. Explore wedding inspiration & ideas and our very popular wedding blog to prepare for your wedding following latest trends. Contact us for more details.</p>
           </div>
         </div>
 
