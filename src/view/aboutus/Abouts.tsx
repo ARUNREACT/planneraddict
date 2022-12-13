@@ -1,6 +1,6 @@
 import '../aboutus/About.styles.css'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, EffectCoverflow, Pagination } from 'swiper'
+// import { Swiper, SwiperSlide } from 'swiper/react'
+// import { Autoplay, EffectCoverflow, Pagination } from 'swiper'
 import { Plannerheader } from '../plannerhead/Plannerhead'
 import { Plannerfooter } from '../plannerfooter/Plannerfooter'
 
@@ -32,7 +32,7 @@ export function About() {
         </p>
       </div>
 
-      <div className="pp mt-5">
+      {/* <div className="pp mt-5">
         <Swiper
           data-aos="slide-up"
           effect={'coverflow'}
@@ -93,7 +93,7 @@ export function About() {
             />
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
 
       <div className="row mx-0 mt-5 align-items-center ">
         <div className="col-lg-6 col-md-12 text-center ">
@@ -111,7 +111,6 @@ export function About() {
           </p>
 
           <p className="p-2" data-aos="slide-up">
-            {' '}
             Our focus is to align your event objectives with modern concepts to
             deliver creative and engaging event experiences to your attendees.
           </p>
@@ -127,7 +126,7 @@ export function About() {
           </p>
 
           <h5 className="mt-3 p-2 fw-bold" data-aos="slide-up">
-            OUR EVENT MANAGEMENT STRATEGY{' '}
+            OUR EVENT MANAGEMENT STRATEGY
           </h5>
           <p className="p-2" data-aos="slide-up">
             We identify key focus areas for every event we plan and consult you

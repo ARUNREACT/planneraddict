@@ -1,7 +1,7 @@
 import '../categories/Categories.styles.css'
 import { Plannerfooter } from '../plannerfooter/Plannerfooter'
 import { Plannerheader } from '../plannerhead/Plannerhead'
-import { Categoriesimg } from '../../component/Categories'
+import Categoriesimg from './Birthday'
 
 export function Reception() {
   return (

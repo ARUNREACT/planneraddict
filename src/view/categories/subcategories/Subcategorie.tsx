@@ -29,7 +29,7 @@ export function Subcategories() {
               <div className="content">
                 <p>
                   “Long have you waited for this very moment. It’s such a joy to
-                  be celebrating your wedding with you! “{' '}
+                  be celebrating your wedding with you! “
                 </p>
               </div>
             </div>
@@ -70,7 +70,7 @@ export function Subcategories() {
                 <p>
                   This is a sacred thread. This is essential for my long life. I
                   tie this around your neck, May you live happily for a hundred
-                  years.{' '}
+                  years.
                 </p>
               </div>
             </div>

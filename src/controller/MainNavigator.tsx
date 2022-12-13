@@ -1,10 +1,8 @@
-import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { About } from '../view/aboutus/Abouts'
 import { Reception } from '../view/categories/Reception'
 import { Haldi } from '../view/categories/Haldi'
 import { Comingsoon } from '../view/comingsoon/Comingsoon'
-import { Login } from '../view/login/Login'
 import { Plannerdashboard } from '../view/palnnerhome/Plannerdashbord'
 import { Plannerfooter } from '../view/plannerfooter/Plannerfooter'
 import { Plannerheader } from '../view/plannerhead/Plannerhead'
@@ -36,8 +34,6 @@ function MainNavigator() {
         <Route path="/birthday" element={<Birthday />} />
 
         <Route path="/comingsoon" element={<Comingsoon />} />
-
-        <Route path="/login" element={<Login />} />
 
         <Route path="/contactus" element={<Contactus />} />
       </Routes>

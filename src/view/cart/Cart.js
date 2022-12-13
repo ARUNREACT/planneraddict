@@ -32,7 +32,6 @@ export const Contactus = () => {
           <div className='contactus-text col-12 col-xl-6'><h1>𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐔𝐒</h1></div>
         </div>
 
-
         <div className='col-12 cart-contact text-center'>
           <div className='col-xl-10 col-12'>
             <h3>𝐏𝐥𝐚𝐧𝐧𝐞𝐫 𝐀𝐝𝐝𝐢𝐜𝐭 - 𝐘𝐨𝐮𝐫 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐖𝐞𝐝𝐝𝐢𝐧𝐠 𝐏𝐥𝐚𝐧𝐧𝐞𝐫</h3>
