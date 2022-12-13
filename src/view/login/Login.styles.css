@@ -1,0 +1,83 @@
+
+.loginbody{
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logincontent {
+    /* background-color: rgb(226, 224, 226); */
+    text-align: center;
+    /* height: 100vh; */
+    min-height: 100vh;
+
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+}
+
+.loginimg {
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+
+.loginimg img {
+    width: 550px;
+    z-index: 1;
+}
+
+.loginuserimg {
+    height: 130px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wave, .loginimg {
+        display: none;
+    }
+}
+
+
+.title {
+    font-size: 2rem;
+}
+
+.logincontent i {
+  font-size: 25px;
+  color: #0f384b;
+
+}
+
+.forgotbtn {
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #0a83bb;
+    border: black solid 1px;
+    border-radius: 25px;
+}
+
+.forgotbtn:hover {
+    background-color: rgb(17, 224, 52);
+}
+
+.forgot{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.forgotlinkbtn {
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+}
+
+.forgotlinkbtn:hover {
+    color: rgb(5, 4, 4);
+}

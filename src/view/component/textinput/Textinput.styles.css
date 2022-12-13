@@ -1,0 +1,44 @@
+.form-input {
+    color: rgb(0, 0, 0);
+    padding: 11px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.form-input::placeholder {
+    color: rgb(37, 39, 38);
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif, fontawesome;
+    font-style: normal;
+
+}
+
+.form-input:focus {
+    border-color: rgb(86, 147, 209);
+    box-shadow: 0 0 18px 0 rgb(60, 141, 223);
+    background-color: rgb(240, 239, 239);
+   
+}
+
+.form-label {
+    font-size: 16px;
+    /* padding-left: 25px; */
+    font-weight: 500;
+    color: rgb(3, 3, 3);
+    /* margin-top: 1rem ; */
+}
+
+.form-label span {
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+}
+
+.form p {
+    font-size: 1rem;
+    padding-left: 20px;
+    margin-top: .3rem;
+    color: rgb(255, 0, 0);
+}

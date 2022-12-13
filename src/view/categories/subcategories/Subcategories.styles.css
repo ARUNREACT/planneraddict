@@ -1,0 +1,122 @@
+.subcatergories {
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    min-width: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    background-size: cover !important;
+    background: url('https://www.eyesinprogress.com/wp-content/uploads/FB1505_7439-940x626.jpg')no-repeat top fixed;
+}
+
+.mainfluid {
+    /* background-color: #ffffff31; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fluid {
+    position: relative;
+    /* padding: 7%; */
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 12px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* margin-top: -7px; */
+    /* background-color: rgba(243, 245, 243, 0.726); */
+}
+
+.fluid a {
+    text-decoration: none !important;
+}
+
+.fluid .card {
+    cursor: pointer;
+    position: relative;
+    width: 250px;
+    height: 160px;
+    margin: 50px 10px;
+    padding: 10px 0px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+
+.fluid .card:hover {
+    height: 280px;
+    border: none;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+
+}
+
+.fluid .card i {
+    color: rgb(0, 102, 255);
+}
+
+.fluid .card:hover i {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    margin-left: 20px;
+}
+
+.card h6 {
+    /* font-size: 18px; */
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    margin-bottom: -30px;
+    color: rgb(0, 0, 0);
+}
+
+.fluid .card p {
+    /* font-size: 13.5px; */
+    /* margin-top: 10px; */
+}
+
+.fluid .card .imgBx {
+    position: relative;
+    width: 230px;
+    height: 100px;
+    top: -60px;
+    left: 10px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.fluid .card .imgBx img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+.fluid .card .content {
+    position: relative;
+    margin-top: 100px;
+    padding: 0px 10px;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.fluid .card:hover .content {
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+    overflow: hidden;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    transition-delay: 0.1s;
+}

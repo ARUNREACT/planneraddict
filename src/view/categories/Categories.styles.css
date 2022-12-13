@@ -1,0 +1,148 @@
+.oo, .haldi, .mantapa, .reception {
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);
+    background-size: cover !important;
+    background: url('https://t4.ftcdn.net/jpg/04/20/09/31/360_F_420093156_dEpP6CgbzpAsZZNdpFigl7szRqMY861b.jpg');
+}
+
+.haldi {
+    background-position: center;
+    background-image: url('https://cdn0.weddingwire.in/article/3122/3_2/960/jpg/102213-weddingnama.jpeg');
+}
+
+.mantapa {
+    background-image: url('https://image.wedmegood.com/resized/800X/uploads/project/82707/1585566648_Siri_GM_33.jpg');
+}
+
+.reception {
+    background: url("https://images.squarespace-cdn.com/content/v1/530286f8e4b0d1c4964d040e/1437595712682-DDAGTD79H1GPU7U2O5FZ/image-asset.jpeg?format=1000w");
+}
+
+
+
+.tabs {
+    display: flex;
+}
+
+
+.tab-switch {
+    display: none;
+}
+
+.tab-label {
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 2.5em;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50px;
+    background: #ffffff;
+    margin-left: 10px;
+    border: 1px solid #000000;
+    color: rgb(255, 0, 140);
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+}
+
+.tab-label:hover {
+    top: -0.25rem;
+    transition: top 0.25s;
+}
+
+.tab-content {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    opacity: 0;
+    transition: all 0.35s;
+}
+
+.tab-switch:checked+.tab-label {
+    background: rgb(0, 0, 0);
+    color: #ff02c0;
+    border-bottom: 0;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.35s;
+}
+
+.tab-switch:checked+label+.tab-content {
+    z-index: 3;
+    opacity: 1;
+    transition: all 0.35s;
+}
+
+
+
+/* .reception {
+    background:  url("https://images.squarespace-cdn.com/content/v1/530286f8e4b0d1c4964d040e/1437595712682-DDAGTD79H1GPU7U2O5FZ/image-asset.jpeg?format=1000w");
+    content: '';
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    filter: blur(4px);
+    background-size: cover !important;
+} */
+
+
+
+.catergoriesimg h1 {
+    font-weight: bold;
+    padding: 11px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 11px;
+    background: #ffffffa9;
+    box-shadow: rgba(0, 0, 0, 0.103) 3px 5px 6px 0px inset, rgba(0, 0, 0, 0.432) -2px -2px 6px 1px inset;
+    border-radius: 10px;
+}
+
+.firstrow {
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 46px;
+    margin-bottom: 30px;
+
+}
+
+.firstrow div {
+    height: 210px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 1px 2px 0px, rgba(60, 64, 67, 0.616) 0px 2px 6px 2px;
+}
+
+.firstrow img {
+    width: 100%;
+    height: 100%;
+}
+
+.firstrow div:hover img {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+@media screen and (max-width: 576px) {
+    .firstrow div {
+        width: 143px;
+        height: 175px;
+    }
+
+    .firstrow {
+        grid-gap: 10px !important;
+    }
+
+}

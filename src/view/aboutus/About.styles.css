@@ -1,0 +1,151 @@
+.aboutus-head-img {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: aqua; */
+}
+
+.aboutus-img {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(1px);
+    background-size: cover !important;
+    background: url('https://www.womensbyte.com/wp-content/uploads/2021/01/Jab-We-Met-Bollywood-Style-Theme.jpg') no-repeat 0% 70% fixed;
+}
+
+
+@media screen and (max-width:576px) {
+    .aboutus-head-img {
+        height: 24vh !important;
+    }
+
+    .aboutus-img {
+        background-size: cover !important;
+        background: url('https://www.womensbyte.com/wp-content/uploads/2021/01/Jab-We-Met-Bollywood-Style-Theme.jpg') no-repeat 50% 22.7% fixed;
+        height: 27vh !important;
+    }
+
+    .aboutustext h1 {
+        font-size: 8vw !important;
+    }
+
+    .aboutus-head-img {
+        height: 27vh !important;
+
+    }
+
+
+}
+
+
+.aboutustext {
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    /* top: 30%; */
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+
+.aboutustext h1 {
+    text-shadow: 4px 1px rgb(0, 0, 0);
+    padding: 1.5%;
+    font-weight: 500;
+    font-size: 4.5vw;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    /* box-shadow: rgba(204, 219, 232, 0.541) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.308) -3px -3px 6px 1px inset; */
+    color: rgb(255, 255, 255);
+    /* background-color: #ffffff86; */
+}
+
+@media screen and (max-width:576px) {
+
+    /* .aboutus {
+        height: 100%
+    } */
+}
+
+.about p {
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: .5px;
+}
+
+.pp {
+    background: rgb(202, 195, 252);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 29rem;
+}
+
+@media screen and (max-width:576px) {
+    .pp {
+        height: 20rem !important;
+    }
+}
+
+.swiper {
+    width: 100% !important;
+    padding-top: 50px !important;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px !important;
+    height: 300px !important;
+}
+
+@media screen and (max-width:576px) {
+    .swiper-slide {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+.swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.fourpics div {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+
+}
+
+.fourpics div img {
+    height: 240px;
+    width: 230px;
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+.fourpics img:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+@media screen and (max-width:576px) {
+    .fourpics div img {
+        height: 170px;
+        width: 140px;
+    }
+
+    .fourpics div {
+        margin-bottom: 7px !important;
+    }
+}
