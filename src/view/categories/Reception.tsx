@@ -195,7 +195,7 @@ export function Reception() {
                         className="mt-3"
                         src={require('../../asset/planner-logo.png')}
                         alt=""
-                        style={{ height: 150, width: 150 }}
+                        style={{ height: 151, width: 151 }}
                       />
                     </div>
                   </div>
