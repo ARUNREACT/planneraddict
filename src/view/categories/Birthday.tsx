@@ -57,10 +57,10 @@ export function Birthday() {
                 categoriesimg={require('../../asset/birthday/birth1.jpeg')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth2.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth2.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth3.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth3.jpg')}
               />
               <Categoriesimg
                 categoriesimg={require('../../asset/birthday/birth4.jpeg')}

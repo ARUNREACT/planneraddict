@@ -1,4 +1,4 @@
-.kk{
+.kk {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -19,7 +19,7 @@
 
 .banner1img {
     position: absolute;
-    height: 130vh;
+    height: 120vh;
     width: 100%;
     z-index: 0;
     filter: blur(5px);
@@ -209,7 +209,8 @@
 
 /************** crousel section *************/
 .mainhead {
-    min-height: 35rem;
+    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,8 +218,8 @@
 
 .head {
     position: absolute;
-    top: 75px;
-    min-height: 560px;
+    /* top: 75px; */
+    min-height: 100vh;
     width: 100%;
     filter: blur(1px);
     z-index: -1;
@@ -227,18 +228,18 @@
 }
 
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 576px) {
 
 
     .mainhead {
-        min-height: 9rem !important;
+        height: 40vh !important;
     }
 
     .head {
-        min-height: 144px !important;
-        background-color: #070707;
+        filter: blur(2px);
         background-repeat: no-repeat, repeat;
-        background-size: contain;
+        background-size: 110vh;
+        background-position: center top;
     }
 
     /* .imageinnertxt1 {
@@ -247,11 +248,6 @@
         letter-spacing: 1px !important;
     } */
 
-    .imageinnertxt1 {
-        height: 95px !important;
-        width: 240px !important;
-        border-radius: 3px !important;
-    }
 
     .imageinnertxt1 .logo1 {
         height: 50px !important;
@@ -284,8 +280,8 @@
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    height: 320px;
-    width: 800px;
+    /* height: 320px; */
+    /* width: 800px; */
     color: #000000;
     letter-spacing: 2px;
     background-color: #fbfbfb48;

@@ -23,13 +23,16 @@ export function Plannerdashboard() {
       <Plannerheader />
 
       <>
-        <div className="col-sm-12 mainhead">
+        <div className="col-sm-12 mainhead p-4">
           <div className="head"></div>
 
-          <div className="imageinnertxt1 ">
-            <img className="logo1" src={require('../../asset/logo.png')}></img>
+          <div className="imageinnertxt1 p-sm-5 p-4">
             <img
-              className="logoname1"
+              className="logo1 img-fluid"
+              src={require('../../asset/logo.png')}
+            ></img>
+            <img
+              className="logoname1 img-fluid"
               src={require('../../asset/logoname.png')}
             ></img>
           </div>

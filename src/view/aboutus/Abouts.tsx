@@ -1,6 +1,6 @@
 import '../aboutus/About.styles.css'
-// import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Autoplay, EffectCoverflow, Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper'
 import { Plannerheader } from '../plannerhead/Plannerhead'
 import { Plannerfooter } from '../plannerfooter/Plannerfooter'
 
@@ -32,7 +32,7 @@ export function About() {
         </p>
       </div>
 
-      {/* <div className="pp mt-5">
+      <div className="pp mt-5">
         <Swiper
           data-aos="slide-up"
           effect={'coverflow'}
@@ -57,8 +57,7 @@ export function About() {
         >
           <SwiperSlide>
             <img
-              // src={require('../../asset/marriage/reception/level1/receptionl7.jpeg')}
-              src={require('http://localhost:3000/static/media/logo.fafea145c165795b92df.png')}
+              src={require('../../asset/marriage/reception/level1/receptionl7.jpeg')}
               alt="img"
             />
           </SwiperSlide>
@@ -74,6 +73,13 @@ export function About() {
               alt="img"
             />
           </SwiperSlide>
+
+          <SwiperSlide>
+            <img
+              src={require('../../asset/marriage/reception/level1/receptionl13.jpeg')}
+              alt="img"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <img
               src={require('../../asset/marriage/reception/level1/receptionl10.jpeg')}
@@ -86,14 +92,8 @@ export function About() {
               alt="img"
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={require('../../asset/marriage/reception/level1/receptionl13.jpeg')}
-              alt="img"
-            />
-          </SwiperSlide>
         </Swiper>
-      </div> */}
+      </div>
 
       <div className="row mx-0 mt-5 align-items-center ">
         <div className="col-lg-6 col-md-12 text-center ">
