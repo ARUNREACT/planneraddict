@@ -19,7 +19,7 @@ export function Subcategories() {
               <div className="imgBx">
                 <img
                   alt="images"
-                  src={require('../../../asset/marriage/haldi/haldi16.jpeg')}
+                  src={require('../../../asset/marriage/haldi/haldi16.png')}
                 />
               </div>
 
@@ -40,7 +40,7 @@ export function Subcategories() {
               <div className="imgBx">
                 <img
                   alt="images"
-                  src={require('../../../asset/marriage/reception/level1/receptionl2.jpeg')}
+                  src={require('../../../asset/marriage/reception/level1/receptionl2.png')}
                 />
               </div>
               <h6>RECEPTION</h6>
@@ -60,7 +60,7 @@ export function Subcategories() {
               <div className="imgBx">
                 <img
                   alt="images"
-                  src={require('../../../asset/marriage/mantapa/mantapa5.jpeg')}
+                  src={require('../../../asset/marriage/mantapa/mantapa5.png')}
                 />
               </div>
               <h6>MANTAPA</h6>

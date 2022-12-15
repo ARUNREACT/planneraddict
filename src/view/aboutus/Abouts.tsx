@@ -57,38 +57,38 @@ export function About() {
         >
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl7.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl7.png')}
               alt="img"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl8.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl8.png')}
               alt="img"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl9.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl9.png')}
               alt="img"
             />
           </SwiperSlide>
 
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl13.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl13.png')}
               alt="img"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl10.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl10.png')}
               alt="img"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={require('../../asset/marriage/reception/level1/receptionl11.jpeg')}
+              src={require('../../asset/marriage/reception/level1/receptionl11.png')}
               alt="img"
             />
           </SwiperSlide>
@@ -138,13 +138,13 @@ export function About() {
           <div className="row mx-0">
             <div className="col-6">
               <img
-                src={require('../../asset/marriage/haldi/haldi1.jpeg')}
+                src={require('../../asset/marriage/haldi/haldi1.png')}
                 alt="img"
               />
             </div>
             <div className="col-6">
               <img
-                src={require('../../asset/marriage/haldi/haldi2.jpeg')}
+                src={require('../../asset/marriage/haldi/haldi2.png')}
                 alt="img"
               />
             </div>
@@ -153,13 +153,13 @@ export function About() {
           <div className="row mx-0 mt-3" data-aos="slide-up ">
             <div className=" col-6">
               <img
-                src={require('../../asset/marriage/reception/level 2/receptionl26.jpeg')}
+                src={require('../../asset/marriage/reception/level 2/receptionl26.png')}
                 alt="img"
               />
             </div>
             <div className="col-6">
               <img
-                src={require('../../asset/marriage/reception/level 2/receptionl29.jpeg')}
+                src={require('../../asset/marriage/reception/level 2/receptionl29.png')}
                 alt="img"
               />
             </div>

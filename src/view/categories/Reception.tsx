@@ -31,79 +31,79 @@ export function Reception() {
                 <div className="tab-content ">
                   <div className="row mx-0 firstrow mt-1 g-4 ">
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl6.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl6.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl7.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl7.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl8.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl8.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl9.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl9.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl10.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl10.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl11.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl11.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl12.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl12.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl13.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl13.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl14.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl14.png')}
                     />
                     {/* <Categoriesimg
-                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl21.jpeg')}
+                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl21.png')}
                                         /> */}
                     {/* <Categoriesimg
-                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl23.jpeg')}
+                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl23.png')}
                                         /> */}
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl24.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl24.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl25.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl25.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl26.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl26.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl27.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl27.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl28.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl28.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl21.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl21.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl29.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl29.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl1.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl1.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl2.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl2.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl3.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl3.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl4.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl4.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl5.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl5.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl210.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl210.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl211.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl211.png')}
                     />
                   </div>
 
@@ -124,67 +124,67 @@ export function Reception() {
                 <div className="tab-content">
                   <div className="row mx-0   firstrow g-4 mt-1 ">
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl212.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl212.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl213.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl213.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl214.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl214.png')}
                     />
                     {/* <Categoriesimg
-                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl215.jpeg')}
+                                            categoriesimg={require('../../asset/marriage/reception/level 2/receptionl215.png')}
                                         /> */}
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl216.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl216.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl31.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl31.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl32.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl32.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl33.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl33.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl34.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl34.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl35.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl35.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl36.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl36.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl37.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl37.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl38.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl38.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl39.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl39.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl310.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl310.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl311.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl311.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl312.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl312.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl313.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl313.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl314.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl314.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl315.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl315.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.jpeg')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
                     />
 
                     <div

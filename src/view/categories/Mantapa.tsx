@@ -14,50 +14,50 @@ export function Mantapa() {
           <div className="container">
             <div className="row  mx-0 firstrow mt-1 g-4 ">
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa.webp')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa2.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa2.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa3.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa3.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa4.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa4.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa5.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa5.png')}
               />
 
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa6.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa6.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa7.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa7.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa8.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa8.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa9.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa9.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa10.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa10.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa11.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa11.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa12.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa12.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa1.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa1.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa13.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa13.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/mantapa/mantapa14.jpeg')}
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa14.png')}
               />
             </div>
           </div>

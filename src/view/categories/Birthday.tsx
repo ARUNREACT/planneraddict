@@ -23,62 +23,62 @@ export function Birthday() {
           <div className="container">
             <div className="row  mx-0 firstrow mt-1 g-4 ">
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth16.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth16.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth17.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth17.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth18.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth18.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth19.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth19.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth20.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth20.png')}
               />
 
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth6.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth6.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth7.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth7.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth8.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth8.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth9.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth9.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth10.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth10.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth1.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth1.png')}
               />
               <Categoriesimg
                 categoriesimg={require('../../asset/birthday/birth2.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth3.jpg')}
+                categoriesimg={require('../../asset/birthday/birth3.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth4.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth4.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth5.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth5.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth11.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth11.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth12.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth12.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth13.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth13.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth14.jpeg')}
+                categoriesimg={require('../../asset/birthday/birth14.png')}
               />
               <Categoriesimg
                 categoriesimg={require('../../asset/birthday/birth15.web')}

@@ -14,65 +14,65 @@ export function Haldi() {
           <div className="container">
             <div className="row  mx-0 firstrow mt-1 g-4 ">
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi1.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi1.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi2.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi2.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi3.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi3.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi4.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi4.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi5.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi5.png')}
               />
 
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi6.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi6.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi7.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi7.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi8.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi8.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi9.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi9.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi10.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi10.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi11.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi11.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi12.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi12.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi13.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi13.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi14.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi14.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi15.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi15.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi16.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi16.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi17.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi17.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi18.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi18.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi19.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi19.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/marriage/haldi/haldi20.jpeg')}
+                categoriesimg={require('../../asset/marriage/haldi/haldi20.png')}
               />
             </div>
           </div>
