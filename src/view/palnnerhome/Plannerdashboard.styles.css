@@ -115,7 +115,7 @@
     /* background-image: url("https://www.alfaazphotography.com/wp-content/uploads/2019/10/How-to-find-right-Indian-Wedding-Photographer-0028.jpg"); */
     /* background-image: url(https://i.pinimg.com/originals/b8/3f/2b/b83f2b37c45bd234a512fa4503426d62.jpg); */
     /* background-image: url(https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/09/1552561678_i_xLvmDxd_X2.jpg); */
-    background-image: url(https://s3-us-west-2.amazonaws.com/shaadiwishnewbucket/5463b1e0-8741-4668-85ea-792b0a104a8c.jpg);
+    background-image: url(https://i.pinimg.com/736x/ae/ed/ca/aeedca505cb735ce96e1c3c159dd54fb.jpg);
 }
 
 @media screen and (max-width: 576px) {
@@ -512,7 +512,7 @@
     height: 70px;
     position: absolute;
     filter: blur(3px);
-    background-image: url("../../asset//arun.jpg");
+    background-image: url(https://i.pinimg.com/736x/38/ae/9a/38ae9a3ea1c1fd349ea50e170ab8ec7a.jpg);
     background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -522,7 +522,7 @@
 .textimgtext h1 {
     margin: 0;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 10px;
     /* background: linear-gradient(to left, #ffffffe1, #cb5ff53f); */
 
