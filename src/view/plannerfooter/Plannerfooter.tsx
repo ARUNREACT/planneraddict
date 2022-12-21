@@ -40,19 +40,15 @@ export function Plannerfooter() {
             </div>
             <div className="col-5 connect ">
               <p className="foothead">Connect</p>
-              <a href="/comingsoon">
-                <p className="foothead1">
-                  <span>Careers</span>
-                </p>
-              </a>
+
               <a href="/contactus">
-                <p>
+                <p className="foothead1">
                   <span>Contact us</span>
                 </p>
               </a>
               <a href="/comingsoon">
                 <p>
-                  <span>Ethics</span>
+                  <span>Careers</span>
                 </p>
               </a>
               <a href="/comingsoon">
@@ -92,17 +88,26 @@ export function Plannerfooter() {
             <div className="row mt-3">
               <ul className="footer-icon">
                 <li>
-                  <a href="#">
+                  <a
+                    target="blank"
+                    href="https://www.instagram.com/planneraddict.in/?hl=en"
+                  >
                     <i className="fa fa-instagram instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-whatsapp whatsapp"></i>
+                  <a
+                    target="blank"
+                    href="https://www.facebook.com/Planneraddict/"
+                  >
+                    <i className="fa">&#xf082;</i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a
+                    target="blank"
+                    href="https://mobile.twitter.com/planneraddict_"
+                  >
                     <i className="fa fa-twitter twitter"></i>
                   </a>
                 </li>

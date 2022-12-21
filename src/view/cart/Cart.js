@@ -67,22 +67,22 @@ export const Contactus = () => {
           <div className='col-xl-5 col-12 contactus-content' style={{ zIndex: '1' }}>
             <div className='col-12'>
               <p>Vendors</p>
-              <p>If you are a registered vendor or a business looking to promote your brand on our portal, please send in your queries at vendors <span> @wedmegood.com</span></p>
+              <p>If you are a registered vendor or a business looking to promote your brand on our portal, please send in your queries at vendors <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
               <p>Marketing Collaborations</p>
-              <p>For brand collaborations - sponsored content, social media activations etc., please write into partnerships <span> @wedmegood.com</span></p>
+              <p>For brand collaborations - sponsored content, social media activations etc., please write into partnerships <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
               <p>Careers</p>
-              <p>We are a team of passionate young minds looking to reinvent the wedding space. If any one intrested please email us at <span> @wedmegood.com</span></p>
+              <p>We are a team of passionate young minds looking to reinvent the wedding space. If any one intrested please email us at <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
               <p>Customers</p>
-              <p>We love to hear from our precious users. For any feedback or queries simply write in to info <span> @wedmegood.com</span></p>
+              <p>We love to hear from our precious users. For any feedback or queries simply write in to info <span> info@planneraddict.in</span></p>
             </div>
           </div>
         </div>

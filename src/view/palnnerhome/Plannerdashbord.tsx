@@ -108,7 +108,7 @@ export function Plannerdashboard() {
               SERVICES"
             </p>
             <p data-aos="fade-up">
-              WE'RE PROMISE TO GIVE OUR BEST IN OFFROADABLE PRIZE FOR EACH AND
+              WE'RE PROMISE TO GIVE OUR BEST IN OFFROADABLE PRICE FOR EACH AND
               EVERYONE .
             </p>
           </div>

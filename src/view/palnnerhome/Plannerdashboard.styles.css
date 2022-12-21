@@ -224,7 +224,9 @@
     filter: blur(1px);
     z-index: -1;
     background-attachment: fixed;
-    background-image: url(https://cdn0.weddingwire.in/article/0765/3_2/1280/jpg/105670-indian-wedding-quotes-and-poems-6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/564x/f5/72/9d/f5729de965dbd52bc8694bc74f12386b.jpg);
 }
 
 
