@@ -157,7 +157,7 @@ li.borderYtoX a:hover:before, li.borderYtoX a:hover:after {
 
 
 nav {
-    background: linear-gradient(-45deg, #9c31f3cc, #e7c6d3c9, #23a5d5ce, #f9fde0c9);
+    background: linear-gradient(-45deg, #9c31f3cc, #e7c6d3c9, #f9fde0c9, #989899);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
