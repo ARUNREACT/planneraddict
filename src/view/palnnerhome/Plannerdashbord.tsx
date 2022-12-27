@@ -126,7 +126,7 @@ export function Plannerdashboard() {
             />
             <Services
               serviceimg={require('../../asset/services /services7.png')}
-              servicename={'LIGHTING'}
+              servicename={'LED WALL'}
             />
             <Services
               serviceimg={require('../../asset/services /services2.png')}
@@ -150,7 +150,7 @@ export function Plannerdashboard() {
             />
             <Services
               serviceimg={require('../../asset/services /services5.png')}
-              servicename={'LED WALL'}
+              servicename={'LIGHTING'}
             />
             <Services
               serviceimg={require('../../asset/services /services1.png')}
@@ -179,15 +179,15 @@ export function Plannerdashboard() {
             <div className="banner1textin col-lg-7 ">
               <h1 data-aos="fade-up ">"𝐇𝐔𝐑𝐑𝐘 𝐍𝐎𝐖"</h1>
               <p data-aos="fade-up">
-                𝐁𝐎𝐎𝐊 𝐘𝐎𝐔𝐑 𝐒𝐋𝐎𝐓𝐒 𝐓𝐇𝐑𝐄𝐄 𝐌𝐎𝐍𝐓𝐇𝐒 𝐁𝐄𝐅𝐎𝐑𝐄 𝐅𝐈𝐑𝐒𝐓 𝐂𝐎𝐌𝐄 𝐅𝐈𝐑𝐒𝐓 𝐏𝐑𝐈𝐎𝐑𝐈𝐓𝐘
+                𝐁𝐎𝐎𝐊 𝐘𝐎𝐔𝐑 𝐒𝐋𝐎𝐓𝐒 𝐓𝐇𝐑𝐄𝐄 𝐌𝐎𝐍𝐓𝐇𝐒 𝐁𝐄𝐅𝐎𝐑𝐄 𝐅𝐈𝐑𝐒𝐓 𝐂𝐎𝐌𝐄 𝐅𝐈𝐑𝐒𝐓 𝐏𝐑𝐈𝐎𝐑𝐈𝐓𝐘 .
               </p>
-              <p data-aos="fade-up">𝐖𝐄'𝐑𝐄 𝐒𝐏𝐄𝐂𝐈𝐀𝐋𝐈𝐙𝐄𝐃 𝐈𝐍 𝐒𝐄𝐓𝐔𝐏𝐒</p>
+              <p data-aos="fade-up">𝐖𝐄'𝐑𝐄 𝐒𝐏𝐄𝐂𝐈𝐀𝐋𝐈𝐙𝐄𝐃 𝐈𝐍 𝐒𝐄𝐓𝐔𝐏𝐒 .</p>
               <p data-aos="fade-up">
-                "𝐌𝐀𝐊𝐄 𝐘𝐎𝐔𝐑 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 𝐌𝐎𝐌𝐄𝐍𝐓𝐒 𝐖𝐈𝐓𝐇 𝐔𝐒 𝐌𝐎𝐑𝐄 𝐒𝐏𝐄𝐂𝐈𝐀𝐋"
+                "𝐌𝐀𝐊𝐄 𝐘𝐎𝐔𝐑 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 𝐌𝐎𝐌𝐄𝐍𝐓𝐒 𝐌𝐎𝐑𝐄 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 𝐖𝐈𝐓𝐇 𝐔𝐒 . "
               </p>
               <p data-aos="fade-up">
-                𝐖𝐄'𝐑𝐄 𝐏𝐑𝐎𝐌𝐈𝐒𝐄 𝐓𝐎 𝐆𝐈𝐕𝐄 𝐎𝐔𝐑 𝐁𝐄𝐒𝐓 𝐈𝐍 𝐎𝐅𝐅𝐑𝐎𝐀𝐃𝐀𝐁𝐋𝐄 𝐏𝐑𝐈𝐙𝐄 𝐅𝐎𝐑 𝐄𝐀𝐂𝐇 𝐀𝐍𝐃
-                𝐄𝐕𝐄𝐑𝐘𝐎𝐍𝐄 .
+                𝐖𝐄'𝐑𝐄 𝐏𝐑𝐎𝐌𝐈𝐒𝐄 𝐓𝐎 𝐆𝐈𝐕𝐄 𝐎𝐔𝐑 "𝐁𝐄𝐒𝐓 𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒" 𝐈𝐍 𝐎𝐅𝐅𝐑𝐎𝐀𝐃𝐀𝐁𝐋𝐄 𝐏𝐑𝐈𝐂𝐄
+                𝐘𝐎𝐔 .
               </p>
             </div>
           </div>
