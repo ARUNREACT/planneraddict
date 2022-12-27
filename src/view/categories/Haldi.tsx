@@ -7,7 +7,7 @@ export function Haldi() {
     <div className="catergories">
       <Plannerheader></Plannerheader>
       <div className="col-sm-12 ">
-        <div className="haldi col-12 bg-danger"></div>
+        <div className="haldi col-12 "></div>
         <div className="col-12  catergoriesimg">
           <h1 className="col">【 ᕼᗩᒪᗪI 】</h1>
 

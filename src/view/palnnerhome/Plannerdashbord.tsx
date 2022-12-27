@@ -96,7 +96,7 @@ export function Plannerdashboard() {
         <div className="bannerimg"></div>
         <div className="bannertext">
           <div data-aos="fade-up">
-            <h1 data-aos="fade-up">𝐇𝐈 !!</h1>
+            <h1 data-aos="fade-up">𝐇𝐈 !!!</h1>
             <p data-aos="fade-up">
               THINKING ABOUT PERSONLAZIED HELP FOR YOUR SPECIAL OCCASION ?
             </p>

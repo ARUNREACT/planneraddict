@@ -1,4 +1,4 @@
-.oo, .haldi, .mantapa, .reception {
+.oo, .haldi, .mantapa, .reception, .naming {
     position: fixed;
     top: 0px;
     z-index: -1;
@@ -22,6 +22,9 @@
     background: url("https://images.squarespace-cdn.com/content/v1/530286f8e4b0d1c4964d040e/1437595712682-DDAGTD79H1GPU7U2O5FZ/image-asset.jpeg?format=1000w");
 }
 
+.naming {
+    background: url('https://i.pinimg.com/474x/d7/82/7e/d7827ea43ba7d945c76c050294daea50.jpg');
+}
 
 
 .tabs {

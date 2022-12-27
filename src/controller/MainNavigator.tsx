@@ -10,6 +10,7 @@ import { Subcategories } from '../view/categories/subcategories/Subcategorie'
 import { Mantapa } from '../view/categories/Mantapa'
 import { Birthday } from '../view/categories/Birthday'
 import { Contactus } from '../view/cart/Cart'
+import { Naming } from '../view/categories/Naming'
 
 function MainNavigator() {
   return (
@@ -32,6 +33,8 @@ function MainNavigator() {
         <Route path="/mantapa" element={<Mantapa />} />
 
         <Route path="/birthday" element={<Birthday />} />
+
+        <Route path="/naming" element={<Naming />} />
 
         <Route path="/comingsoon" element={<Comingsoon />} />
 

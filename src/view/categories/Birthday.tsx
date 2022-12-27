@@ -16,7 +16,7 @@ export function Birthday() {
     <div className="catergories">
       <Plannerheader></Plannerheader>
       <div className="col-sm-12 ">
-        <div className="oo col-12 bg-danger"></div>
+        <div className="oo col-12 "></div>
         <div className="col-12  catergoriesimg">
           <h1 className="col">𝗕𝗜𝗥𝗧𝗛𝗗𝗔𝗬 𝗘𝗩𝗘𝗡𝗧</h1>
 

@@ -69,6 +69,12 @@ export function Plannerheader() {
                 </li>
 
                 <li>
+                  <a href="/naming" className="dropdown-item">
+                    NAMING CEREMONY
+                  </a>
+                </li>
+
+                <li>
                   <a href="#" className="dropdown-item">
                     HOUSE WARMING
                   </a>

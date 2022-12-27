@@ -24,7 +24,7 @@ export function Reception() {
                   checked
                   className="tab-switch "
                 />
-                <label htmlFor="tab-1" className="tab-label ">
+                <label htmlFor="tab-1 " className="tab-label ">
                   <i className="fs-4 bi bi-arrow-left-circle-fill"></i>
                 </label>
 
