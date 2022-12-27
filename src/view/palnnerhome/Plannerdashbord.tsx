@@ -96,20 +96,18 @@ export function Plannerdashboard() {
         <div className="bannerimg"></div>
         <div className="bannertext">
           <div data-aos="fade-up">
-            <h1 data-aos="fade-up">𝐇𝐈 𝐖𝐀𝐒𝐒𝐔𝐏 !!</h1>
+            <h1 data-aos="fade-up">𝐇𝐈 !!</h1>
             <p data-aos="fade-up">
-              THINKING ABOUT PERSONLAZIED HELP FOR YOUR SPECIAL OCCASION
+              THINKING ABOUT PERSONLAZIED HELP FOR YOUR SPECIAL OCCASION ?
             </p>
             <p data-aos="fade-up">
-              CHILL WE'LL BE THERE FOR YOU WIPE YOUR TENSION OUT
+              CHILL, WE'LL BE THERE FOR YOU WIPE YOUR TENSION OUT.
             </p>
             <p data-aos="fade-up">
-              WE ARE JUST BORN BABY NOT FOR EVENTS BUT FOR "ONLINE EVENT
-              SERVICES"
+              WE ARE HERE TO TRANSFORM YOUR DREAM OCCASIONS TO REALITY.
             </p>
             <p data-aos="fade-up">
-              WE'RE PROMISE TO GIVE OUR BEST IN OFFROADABLE PRICE FOR EACH AND
-              EVERYONE .
+              WE PROMISE TO GIVE OUR "BEST SERVICE" IN AFFORDABLE PRICE FOR YOU.
             </p>
           </div>
         </div>
@@ -193,27 +191,29 @@ export function Plannerdashboard() {
               </p>
             </div>
           </div>
-          <div className="banner1text col-12">
-            <div className="banner1textin1 col-lg-4 col-md-6 col-10">
-              <p data-aos="fade-up">𝐁𝐄𝐇𝐀𝐋𝐅</p>
-              <p data-aos="fade-up">𝐎𝐅</p>
-              <p data-aos="fade-up">"𝐑𝐎𝐘𝐀𝐋 𝐒𝐎𝐔𝐍𝐃 𝐒𝐘𝐒𝐓𝐄𝐌"</p>
-              <p data-aos="fade-up">𝐒𝐈𝐍𝐂𝐄 𝟏𝟗𝟕𝟔</p>
-            </div>
-          </div>
 
-          <div className="liquid mt-3" data-aos="zoom-in">
-            {/* <h2>PLANNER ADDICT</h2>
-                <h2>PLANNER ADDICT</h2>
-                <h2>PLANNER ADDICT</h2>
-                <h2>PLANNER ADDICT</h2> */}
-            {/* <div className="img"> */}
+          {/* <div className="liquid mt-3" data-aos="zoom-in">
             <img
               className="img-fluid"
               src={require('../../asset/planner-logo.png')}
               alt=""
             />
-            {/* </div> */}
+          </div> */}
+
+          <div className="banner1text col-12">
+            <div className="banner1textin1 col-lg-4 col-md-6 col-10">
+              <img
+                className="img-flui"
+                src={require('../../asset/planner-logo.png')}
+                alt=""
+                height="100px"
+              />
+
+              <p data-aos="fade-up">𝐁𝐄𝐇𝐀𝐋𝐅</p>
+              <p data-aos="fade-up">𝐎𝐅</p>
+              <p data-aos="fade-up">"𝐑𝐎𝐘𝐀𝐋 𝐒𝐎𝐔𝐍𝐃 𝐒𝐘𝐒𝐓𝐄𝐌"</p>
+              <p data-aos="fade-up">𝐒𝐈𝐍𝐂𝐄 𝟏𝟗𝟕𝟔</p>
+            </div>
           </div>
         </div>
       </>
