@@ -113,7 +113,7 @@ export function Plannerfooter() {
                 </li>
 
                 <li>
-                  <a target="blank" href="https://wa.me/+91 935338558">
+                  <a target="blank" href="https://wa.me/+91935338558">
                     <i className="fa fa-whatsapp  whatsup"></i>
                   </a>
                 </li>
