@@ -31,6 +31,36 @@ export function Reception() {
                 <div className="tab-content ">
                   <div className="row mx-0 firstrow mt-1 g-4 p-md-5">
                     <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl317.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl318.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl319.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl320.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl321.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl5.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl210.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl211.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl317.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl318.png')}
+                    />
+                    <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level1/receptionl6.png')}
                     />
                     <Categoriesimg
@@ -96,20 +126,12 @@ export function Reception() {
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level1/receptionl4.png')}
                     />
+
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level1/receptionl5.png')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl334.png')}
                     />
                     <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl210.png')}
-                    />
-                    <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 2/receptionl211.png')}
-                    />
-                    <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl317.png')}
-                    />
-                    <Categoriesimg
-                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl318.png')}
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl335.png')}
                     />
                   </div>
 
@@ -129,6 +151,37 @@ export function Reception() {
                 </label>
                 <div className="tab-content">
                   <div className="row mx-0 firstrow g-4 mt-1 p-md-5">
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl324.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl325.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl326.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl327.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl328.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl329.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl330.png')}
+                    />
+
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl331.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl332.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl333.png')}
+                    />
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 2/receptionl212.png')}
                     />
@@ -192,13 +245,21 @@ export function Reception() {
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
                     />
+
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl322.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl323.png')}
+                    />
+
                     {/* <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
                     /> */}
                     {/* <Categoriesimg
                       categoriesimg={require('../../asset/planner-logo.png')}
                     /> */}
-                    <div
+                    {/* <div
                       className="col-12 d-flex justify-content-center"
                       style={{ boxShadow: 'none' }}
                     >
@@ -208,7 +269,7 @@ export function Reception() {
                         alt=""
                         style={{ height: 150, width: 150 }}
                       />
-                    </div>
+                    </div> */}
                   </div>
                   <Plannerfooter></Plannerfooter>
                 </div>

@@ -75,7 +75,7 @@ export function Plannerheader() {
                 </li>
                 <li>
                   <a href="/keeth" className="dropdown-item text-wrap">
-                    CHAPPARA / PACHA PANDAL
+                    CHAPPARAM
                   </a>
                 </li>
 

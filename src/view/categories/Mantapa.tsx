@@ -14,6 +14,22 @@ export function Mantapa() {
           <div className="container">
             <div className="row  mx-0 firstrow mt-1 g-4 ">
               <Categoriesimg
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa16.png')}
+              />
+              <Categoriesimg
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa17.png')}
+              />
+              <Categoriesimg
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa18.png')}
+              />
+              <Categoriesimg
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa19.png')}
+              />
+              <Categoriesimg
+                categoriesimg={require('../../asset/marriage/mantapa/mantapa20.png')}
+              />
+
+              <Categoriesimg
                 categoriesimg={require('../../asset/marriage/mantapa/mantapa.png')}
               />
               <Categoriesimg

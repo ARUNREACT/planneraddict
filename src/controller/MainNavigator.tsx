@@ -12,6 +12,7 @@ import { Birthday } from '../view/categories/Birthday'
 import { Contactus } from '../view/cart/Cart'
 import { Naming } from '../view/categories/Naming'
 import { Keeth } from '../view/categories/Keeth'
+import { Terms } from '../view/termscondition/Terms'
 
 function MainNavigator() {
   return (
@@ -24,6 +25,7 @@ function MainNavigator() {
         <Route path="/plannerheader" element={<Plannerheader />} />
 
         <Route path="/about" element={<About />} />
+        <Route path="/terms" element={<Terms />} />
 
         <Route path="/subcategories" element={<Subcategories />} />
 

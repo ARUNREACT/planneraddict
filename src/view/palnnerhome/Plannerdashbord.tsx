@@ -126,7 +126,7 @@ export function Plannerdashboard() {
 
         <div className="container-fluid bg-white mx-0 px-0  mb-5">
           <div
-            className="container bg-light services1 px-0"
+            className="container bg-white services1 px-0"
             data-aos="slide-up"
           >
             <Services
@@ -172,7 +172,7 @@ export function Plannerdashboard() {
 
             <Services
               serviceimg={require('../../asset/services /services11.png')}
-              servicename={'EXHIBITION'}
+              servicename={'EXHIBITION ORGANIZTIONG'}
             />
             <Services
               serviceimg={require('../../asset/services /services12.png')}
@@ -180,7 +180,7 @@ export function Plannerdashboard() {
             />
             <Services
               serviceimg={require('../../asset/services /services13.png')}
-              servicename={'TATTOO,MAGICAN,CARICATURE,'}
+              servicename={'TATTOO,MAGICAN, CARICATURE, CARTOON CHARACTER'}
             />
             <Services
               serviceimg={require('../../asset/services /services14.png')}

@@ -64,7 +64,7 @@ export function Plannerfooter() {
           <div className="row">
             <div className="col-7 legal ">
               <p className="foothead">Legal</p>
-              <a href="/termsconditions">
+              <a href="/terms">
                 <p className="foothead1">
                   <span>Terms & Conditions</span>
                 </p>
@@ -113,7 +113,7 @@ export function Plannerfooter() {
                 </li>
 
                 <li>
-                  <a target="blank" href="https://wa.me/935338558">
+                  <a target="blank" href="https://wa.me/9353583558">
                     <i className="fa fa-whatsapp  whatsup"></i>
                   </a>
                 </li>
