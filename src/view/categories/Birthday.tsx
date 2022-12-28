@@ -81,7 +81,7 @@ export function Birthday() {
                 categoriesimg={require('../../asset/birthday/birth14.png')}
               />
               <Categoriesimg
-                categoriesimg={require('../../asset/birthday/birth15.web')}
+                categoriesimg={require('../../asset/birthday/birth15.png')}
               />
             </div>
           </div>

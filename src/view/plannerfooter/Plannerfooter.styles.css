@@ -99,7 +99,7 @@
 .footer-icon li {
     position: relative;
     list-style: none;
-    margin: 20px 20px;
+    margin: 20px 10px;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .footer-icon li a .fa {
-    font-size: 3em;
+    font-size: 2.2em;
     color: #222;
 }
 
@@ -117,7 +117,7 @@
     position: absolute;
     top: -12px;
     left: 0;
-    font-size: 3em;
+    font-size: 2.2em;
     height: 0;
     overflow: hidden;
     transition: 0.5s ease-in-out;
@@ -130,21 +130,27 @@
             #bc1888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: 4px solid #dc2743;
+    border-bottom: 2.2px solid #dc2743;
 }
 
 .footer-icon li:nth-child(2) a::before {
     content: "\f082";
     color: #3b5998;
-    border-bottom: 4px solid #3b5998;
+    border-bottom: 2.2px solid #3b5998;
 }
 
 .footer-icon li:nth-child(3) a::before {
     content: "\f099";
     color: #1DA1F2;
-    border-bottom: 4px solid #1DA1F2;
+    border-bottom: 2.2px solid #1DA1F2;
+}
+
+.footer-icon li:nth-child(4) a::before {
+    content: "\f232";
+    color: #25D366;
+    border-bottom: 2.2px solid #25D366;
 }
 
 .footer-icon li:hover a::before {
-    height: 70px;
+    height: 55px;
 }

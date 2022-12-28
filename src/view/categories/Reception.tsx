@@ -22,14 +22,14 @@ export function Reception() {
                   name="css-tabs"
                   id="tab-1"
                   checked
-                  className="tab-switch "
+                  className="tab-switch"
                 />
                 <label htmlFor="tab-1 " className="tab-label ">
                   <i className="fs-4 bi bi-arrow-left-circle-fill"></i>
                 </label>
 
                 <div className="tab-content ">
-                  <div className="row mx-0 firstrow mt-1 g-4 ">
+                  <div className="row mx-0 firstrow mt-1 g-4 p-md-5">
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level1/receptionl6.png')}
                     />
@@ -105,6 +105,12 @@ export function Reception() {
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 2/receptionl211.png')}
                     />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl317.png')}
+                    />
+                    <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl318.png')}
+                    />
                   </div>
 
                   <Plannerfooter></Plannerfooter>
@@ -122,7 +128,7 @@ export function Reception() {
                   <i className="fs-4 bi bi-arrow-right-circle-fill"></i>
                 </label>
                 <div className="tab-content">
-                  <div className="row mx-0   firstrow g-4 mt-1 ">
+                  <div className="row mx-0 firstrow g-4 mt-1 p-md-5">
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 2/receptionl212.png')}
                     />
@@ -186,13 +192,15 @@ export function Reception() {
                     <Categoriesimg
                       categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
                     />
-
+                    {/* <Categoriesimg
+                      categoriesimg={require('../../asset/planner-logo.png')}
+                    /> */}
                     <div
-                      className="col-xl-2 col-6  "
+                      className="col d-flex justify-content-center"
                       style={{ boxShadow: 'none' }}
                     >
                       <img
-                        className="mt-3"
+                        className="img-fluid"
                         src={require('../../asset/planner-logo.png')}
                         alt=""
                         style={{ height: 150, width: 150 }}

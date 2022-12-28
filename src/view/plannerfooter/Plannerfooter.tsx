@@ -111,6 +111,12 @@ export function Plannerfooter() {
                     <i className="fa fa-twitter twitter"></i>
                   </a>
                 </li>
+
+                <li>
+                  <a target="blank" href="https://wa.me/9789774078">
+                    <i className="fa fa-whatsapp  whatsup"></i>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
