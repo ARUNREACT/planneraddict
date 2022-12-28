@@ -4,7 +4,7 @@ import { Plannerheader } from '../plannerhead/Plannerhead'
 
 function Categoriesimg(props: any) {
   return (
-    <div className="col-lg-2 col-md-4 col-5">
+    <div className="col-lg-2 col-md-3 col-sm-4 col-5" data-aos="fade-up">
       <img src={props.categoriesimg} alt="Birthday-img" />
     </div>
   )

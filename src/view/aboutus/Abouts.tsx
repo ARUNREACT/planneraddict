@@ -13,15 +13,19 @@ export function About() {
         {/* <img className='' src='https://www.womensbyte.com/wp-content/uploads/2021/01/Jab-We-Met-Bollywood-Style-Theme.jpg'></img> */}
 
         <div className="aboutus-img"></div>
-        <div className="aboutustext col-5">
-          <h1 className="col">𝐀𝐁𝐎𝐔𝐓 𝐔𝐒</h1>
+        <div className="aboutustext col-md-5 col-12">
+          <h1 className="col" data-aos="slide-down">
+            𝐀𝐁𝐎𝐔𝐓 𝐔𝐒
+          </h1>
         </div>
         {/* </div> */}
       </div>
 
       <div className="container mt-3 text-center p-1">
-        <h1 className="text-dark">𝐏𝐋𝐀𝐍𝐍𝐄𝐑 𝐀𝐃𝐃𝐈𝐂𝐓</h1>
-        <p className="mt-4">
+        <h1 className="text-dark" data-aos="slide-right">
+          𝐏𝐋𝐀𝐍𝐍𝐄𝐑 𝐀𝐃𝐃𝐈𝐂𝐓
+        </h1>
+        <p className="mt-lg-4" data-aos="slide-up">
           𝐈𝐧𝐝𝐢𝐚'𝐬 𝐟𝐚𝐯𝐨𝐮𝐫𝐢𝐭𝐞 𝐰𝐞𝐝𝐝𝐢𝐧𝐠 𝐩𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐰𝐞𝐛𝐬𝐢𝐭𝐞 & 𝐚𝐩𝐩 𝐰𝐢𝐭𝐡 𝐨𝐯𝐞𝐫 𝟏.𝟓 𝐦𝐢𝐥𝐥𝐨𝐧
           𝐦𝐨𝐧𝐭𝐡𝐥𝐲 𝐝𝐞𝐝𝐢𝐜𝐚𝐭𝐞𝐝 𝐮𝐬𝐞𝐫𝐬. 𝐏𝐥𝐚𝐧𝐧𝐞𝐫 𝐀𝐝𝐝𝐢𝐜𝐭 𝐢𝐬​ 𝐚 ​𝐬𝐰𝐚𝐧𝐤𝐲 𝐚𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨
           𝐭𝐡𝐞 𝐨𝐮𝐭𝐝𝐚𝐭𝐞𝐝 𝐰𝐞𝐝𝐝𝐢𝐧𝐠 𝐩𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐩𝐫𝐨𝐜𝐞𝐬𝐬 . 𝐀 𝐨𝐧𝐞-𝐬𝐭𝐨𝐩-𝐬𝐡𝐨𝐩 𝐟𝐨𝐫 𝐚𝐥𝐥 𝐭𝐡𝐢𝐧𝐠𝐬
@@ -33,9 +37,8 @@ export function About() {
         </p>
       </div>
 
-      <div className="pp mt-5">
+      <div className="pp mt-lg-5 mt-2" data-aos="zoom-in">
         <Swiper
-          data-aos="slide-up"
           effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
@@ -97,21 +100,21 @@ export function About() {
       </div>
 
       <div className="row mx-0 mt-5 align-items-center ">
-        <div className="col-lg-6 col-md-12 text-center ">
+        <div className="col-lg-6 col-md-12  text-center ">
           <h4 className="fw-bold">Make Planning decisions</h4>
 
-          <p className="p-2" data-aos="slide-up">
+          <p className="p-lg-2" data-aos="slide-up">
             We provide event management services to companies from different
             industries.
           </p>
 
-          <p className="p-2" data-aos="slide-up">
+          <p className="p-lg-2" data-aos="slide-up">
             We have a vast vendor network of Hotels and partners who help us
             provide the best and most cost effective event services to our
             clients.
           </p>
 
-          <p className="p-2" data-aos="slide-up">
+          <p className="p-lg-2" data-aos="slide-up">
             Our focus is to align your event objectives with modern concepts to
             deliver creative and engaging event experiences to your attendees.
           </p>
@@ -119,7 +122,7 @@ export function About() {
           <h5 className="mt-3 p-2 fw-bold" data-aos="slide-up">
             OUR EVENT MANAGEMENT PHILOSOPHY
           </h5>
-          <p className="p-2" data-aos="slide-up">
+          <p className="p-lg-2" data-aos="slide-up">
             To make our clients event planning processes simple by offering
             reliable and impactful services.The experience our clients get from
             working with us is always as important as the experience we deliver
@@ -129,7 +132,7 @@ export function About() {
           <h5 className="mt-3 p-2 fw-bold" data-aos="slide-up">
             OUR EVENT MANAGEMENT STRATEGY
           </h5>
-          <p className="p-2" data-aos="slide-up">
+          <p className="p-lg-2" data-aos="slide-up">
             We identify key focus areas for every event we plan and consult you
             about what works best and what can help you derive maximum return on
             your investment.
@@ -137,29 +140,33 @@ export function About() {
         </div>
         <div className="col-lg-6 col-md-12 fourpics">
           <div className="row mx-0">
-            <div className="col-6">
+            <div className="col-6 col-lg-6 col-md-4">
               <img
+                data-aos="slide-up"
                 src={require('../../asset/marriage/haldi/haldi1.png')}
                 alt="img"
               />
             </div>
-            <div className="col-6">
+            <div className="col-6 col-lg-6 col-md-4">
               <img
-                src={require('../../asset/marriage/haldi/haldi2.png')}
+                data-aos="slide-up"
+                src={require('../../asset/marriage/haldi/haldi8.png')}
                 alt="img"
               />
             </div>
           </div>
 
           <div className="row mx-0 mt-3" data-aos="slide-up ">
-            <div className=" col-6">
+            <div className=" col-6 col-lg-6 col-md-4">
               <img
+                data-aos="slide-up"
                 src={require('../../asset/marriage/reception/level 2/receptionl26.png')}
                 alt="img"
               />
             </div>
-            <div className="col-6">
+            <div className="col-6 col-lg-6 col-md-4">
               <img
+                data-aos="slide-up"
                 src={require('../../asset/marriage/reception/level 2/receptionl29.png')}
                 alt="img"
               />

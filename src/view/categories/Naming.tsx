@@ -1,15 +1,7 @@
 import '../categories/Categories.styles.css'
 import { Plannerfooter } from '../plannerfooter/Plannerfooter'
 import { Plannerheader } from '../plannerhead/Plannerhead'
-
-function Categoriesimg(props: any) {
-  return (
-    <div className="col-lg-2 col-md-4 col-5">
-      <img src={props.categoriesimg} alt="Birthday-img" />
-    </div>
-  )
-}
-export default Categoriesimg
+import Categoriesimg from './Birthday'
 
 export function Naming() {
   return (

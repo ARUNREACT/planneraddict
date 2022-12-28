@@ -536,40 +536,21 @@
 
 @media screen and (max-width:576px) {
     .services1 {
-        grid-gap: 15px !important;
+        grid-gap: 20px !important;
     }
 
-    .img-responsive {
-
-        width: 148px !important;
+    .services-card {
+        height: 160px !important;
+        width: 140px !important;
     }
 
-    .cards {
-        height: 180px !important;
+    .services-card-img {
+        height: 160px !important;
+        width: 140px !important;
     }
 
-    .card-img {
-        width: 145px !important;
-        height: 181px !important;
-    }
-
-    .card__collection .cards--two:hover .cards--two__rect {
-        top: 95% !important;
-    }
-
-    .card__collection .cards--two:hover .cards--two__rect:before {
-        transform: translateY(5px) !important;
-    }
-
-    .card__collection .cards--two:hover p {
-        font-size: 16px;
-        width: 100px !important;
-    }
-
-    .card__collection .cards--two__rect:before {
-
-        background: #86049783 !important;
-
+    .card-p {
+        font-size: 14px !important;
     }
 
 }
@@ -584,6 +565,58 @@
 
 }
 
+.services-card {
+    height: 200px;
+    width: 175px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.services-card-img {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 6px;
+    height: 200px;
+    width: 175px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
+
+.card-p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding: 3px;
+    font-size: 15.5px;
+    letter-spacing: .5px;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+    background-color: #000000b2;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services-card-img:hover {
+    transform: scale(1.05);
+
+}
+
+.services-card:hover .card-p {
+    margin-bottom: 50%;
+    background-color: #a30481cb;
+
+}
+
+/* 
 .clear-fix:after {
     display: block;
     clear: both;
@@ -613,6 +646,10 @@
     overflow: hidden;
     background-position: center;
     cursor: pointer;
+}
+
+.card-img {
+    object-fit: cover;
 }
 
 .card__collection .cards--two p {
@@ -675,7 +712,7 @@
     z-index: 2;
     transition: all 0.3s ease-in-out;
     transition-delay: 0.1s;
-}
+} */
 
 
 /*  

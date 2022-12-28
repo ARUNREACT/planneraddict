@@ -193,10 +193,13 @@ export function Reception() {
                       categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
                     />
                     {/* <Categoriesimg
+                      categoriesimg={require('../../asset/marriage/reception/level 3/receptionl316.png')}
+                    /> */}
+                    {/* <Categoriesimg
                       categoriesimg={require('../../asset/planner-logo.png')}
                     /> */}
                     <div
-                      className="col d-flex justify-content-center"
+                      className="col-12 d-flex justify-content-center"
                       style={{ boxShadow: 'none' }}
                     >
                       <img

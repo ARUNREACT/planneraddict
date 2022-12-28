@@ -7,11 +7,14 @@ import 'swiper/css/pagination'
 
 function Services(props: any) {
   return (
-    <div className="card__collection clear-fix col-lg-2">
-      <div className="cards cards--two col-lg-12 ">
-        <img src={props.serviceimg} className="card-img" alt="Cards Image" />
-        <span className="cards--two__rect"></span>
-        <p>{props.servicename}</p>
+    <div className="col-lg-2">
+      <div className="services-card text-break">
+        <img
+          src={props.serviceimg}
+          className="services-card-img "
+          alt="Cards Image"
+        />
+        <p className="card-p col-12 ">{props.servicename}</p>
       </div>
     </div>
   )
@@ -29,10 +32,12 @@ export function Plannerdashboard() {
           <div className="imageinnertxt1 p-sm-5 p-4">
             <img
               className="logo1 img-fluid"
+              data-aos="slide-up"
               src={require('../../asset/logo.png')}
             ></img>
             <img
               className="logoname1 img-fluid"
+              data-aos="slide-right"
               src={require('../../asset/logoname.png')}
             ></img>
           </div>
@@ -118,8 +123,12 @@ export function Plannerdashboard() {
         <div className="textimgtext" data-aos="fade-up">
           <h1 className="text-center ">𝐎𝐔𝐑 𝐒𝐄𝐑𝐕𝐈𝐂𝐄𝐒 </h1>
         </div>
-        <div className="container-fluid bg-white mx-0 px-0">
-          <div className="container bg-light services1 px-0">
+
+        <div className="container-fluid bg-white mx-0 px-0  mb-5">
+          <div
+            className="container bg-light services1 px-0"
+            data-aos="slide-up"
+          >
             <Services
               serviceimg={require('../../asset/services /services3.png')}
               servicename={'BRIDAL MAKEUP'}
@@ -141,7 +150,7 @@ export function Plannerdashboard() {
               servicename={'PHOTOGRAPHY'}
             />
             <Services
-              serviceimg={require('../../asset/services /services10.png')}
+              serviceimg={require('../../asset/services /services9.png')}
               servicename={'CORPORATE EVENT'}
             />
             <Services
@@ -157,8 +166,25 @@ export function Plannerdashboard() {
               servicename={'GENERATOR'}
             />
             <Services
-              serviceimg={require('../../asset/services /services11.png')}
+              serviceimg={require('../../asset/services /services10.png')}
               servicename={'GERMAN TENT'}
+            />
+
+            <Services
+              serviceimg={require('../../asset/services /services11.png')}
+              servicename={'EXHIBITION'}
+            />
+            <Services
+              serviceimg={require('../../asset/services /services12.png')}
+              servicename={'AMUSMENTS'}
+            />
+            <Services
+              serviceimg={require('../../asset/services /services13.png')}
+              servicename={'TATTOO,MAGICAN,CARICATURE,'}
+            />
+            <Services
+              serviceimg={require('../../asset/services /services14.png')}
+              servicename={'MENHDI ARTIST'}
             />
             {/* <Services
                             serviceimg={require('../../asset/services /services12.png')}
@@ -177,7 +203,7 @@ export function Plannerdashboard() {
           <div className="banner1img"></div>
           <div className="banner1text col-12">
             <div className="banner1textin col-lg-7 ">
-              <h1 data-aos="fade-up ">"𝐇𝐔𝐑𝐑𝐘 𝐍𝐎𝐖"</h1>
+              <h1 data-aos="fade-up">"𝐇𝐔𝐑𝐑𝐘 𝐍𝐎𝐖"</h1>
               <p data-aos="fade-up">
                 𝐁𝐎𝐎𝐊 𝐘𝐎𝐔𝐑 𝐒𝐋𝐎𝐓𝐒 𝐓𝐇𝐑𝐄𝐄 𝐌𝐎𝐍𝐓𝐇𝐒 𝐁𝐄𝐅𝐎𝐑𝐄 𝐅𝐈𝐑𝐒𝐓 𝐂𝐎𝐌𝐄 𝐅𝐈𝐑𝐒𝐓 𝐏𝐑𝐈𝐎𝐑𝐈𝐓𝐘 .
               </p>
@@ -204,6 +230,7 @@ export function Plannerdashboard() {
             <div className="banner1textin1 col-lg-4 col-md-6 col-10">
               <img
                 className="img-flui"
+                data-aos="slide-up"
                 src={require('../../asset/planner-logo.png')}
                 alt=""
                 height="100px"

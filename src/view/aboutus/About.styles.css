@@ -114,34 +114,38 @@
     display: block !important;
     width: 100% !important;
     height: 100% !important;
+    object-fit: cover;
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
 }
 
 .fourpics div {
     display: flex;
     justify-content: center;
-    overflow: hidden;
     cursor: pointer;
+    overflow: hidden;
     margin-bottom: 30px;
     /* display: inline-block; */
 
 }
 
 .fourpics div img {
-    height: 240px;
-    width: 230px;
-    transition: all 1s;
+    overflow: hidden;
+    object-fit: cover;
+    height: 220px;
+    width: 200px;
+    transition: all .5s;
     border-radius: 5px;
 }
 
 .fourpics img:hover {
-    transform: scale(1.1);
+    overflow: hidden;
+    transform: scale(1.05);
     border-radius: 5px;
 }
 
 @media screen and (max-width:576px) {
     .fourpics div img {
-        height: 170px;
+        height: 150px;
         width: 140px;
     }
 

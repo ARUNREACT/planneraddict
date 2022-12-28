@@ -11,6 +11,7 @@ import { Mantapa } from '../view/categories/Mantapa'
 import { Birthday } from '../view/categories/Birthday'
 import { Contactus } from '../view/cart/Cart'
 import { Naming } from '../view/categories/Naming'
+import { Keeth } from '../view/categories/Keeth'
 
 function MainNavigator() {
   return (
@@ -35,6 +36,8 @@ function MainNavigator() {
         <Route path="/birthday" element={<Birthday />} />
 
         <Route path="/naming" element={<Naming />} />
+
+        <Route path="/keeth" element={<Keeth />} />
 
         <Route path="/comingsoon" element={<Comingsoon />} />
 

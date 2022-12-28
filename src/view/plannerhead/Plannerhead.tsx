@@ -34,8 +34,8 @@ export function Plannerheader() {
             </div>
           </span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarNav">
-          <ul className="navbar-nav">
+        <div className="collapse  navbar-collapse " id="navbarNav">
+          <ul className="navbar-nav ">
             <li className="nav-item  borderYtoX ">
               <a className="nav-link " href="/">
                 𝐇𝐎𝐌𝐄
@@ -71,6 +71,11 @@ export function Plannerheader() {
                 <li>
                   <a href="/naming" className="dropdown-item">
                     NAMING CEREMONY
+                  </a>
+                </li>
+                <li>
+                  <a href="/keeth" className="dropdown-item text-wrap">
+                    CHAPPARA / PACHA PANDAL
                   </a>
                 </li>
 
