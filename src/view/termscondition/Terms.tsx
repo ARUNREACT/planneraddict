@@ -83,12 +83,14 @@ export function Terms() {
             termsp8={`𝗗𝗲𝗹𝗲𝗴𝗮𝘁𝗲- means any person including speakers, exhibitors or partners attending all or part of the Event
             for which this Service is being provided.`}
             termsp9={`𝗘𝘃𝗲𝗻𝘁- means the occasion for which the Service is required.`}
-            termsp10={`𝗠𝗶𝗻𝗶𝗺𝘂𝗺 𝗚𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲𝗱 𝗡𝘂𝗺𝗯𝗲𝗿
-            means the number of delegates anticipated to register using the Service
-            as specified by the Client in the Booking Contract.`}
+            // termsp10={`𝗠𝗶𝗻𝗶𝗺𝘂𝗺 𝗚𝘂𝗮𝗿𝗮𝗻𝘁𝗲𝗲𝗱 𝗡𝘂𝗺𝗯𝗲𝗿
+            // means the number of delegates anticipated to register using the Service
+            // as specified by the Client in the Booking Contract.`}
             termsp11={`𝗣𝗿𝗶𝗰𝗲 means the price specified in the Booking Contract.`}
             termsp12={`𝗥𝗲𝘃𝗲𝗻𝘂𝗲 means the Revenue anticipated by “PLANNER ADDICT” First in respect of the Delegate fees.`}
             termsp13={`𝗦𝗲𝗿𝘃𝗶𝗰𝗲 means the services as provided by “PLANNER ADDICT” First as set out in the Booking Contract.`}
+          />
+          <Termscontent
             termsp14={`1. In this Contract the following rules apply:`}
             termsp15={`a) A reference to a statute or statutory provision is a reference to such statute or provision as amended
             or re-enacted. A reference to a statute or statutory provision`}
@@ -129,9 +131,7 @@ export function Terms() {
             termsp5={`9. If “PLANNER ADDICT” is required to provide a Website under this Contract, the Website will remain
             live for a period of six months after the date of the Event. The Client will be Solely responsible for the
             content of the Website and the Abstract uploaded by the Client and/or Delegates (the “Abstract”) and
-            any postings on or use of the Website by the Client and or any third parties and/or Delegates, and shall
-            indemnify the University in respect of any loss or claims resulting from the content of the Website
-            and/or the Abstract `}
+            any postings on or use of the Website by the Client and or any third parties.`}
           />
           <Termscontent
             termsh4={`Delegate number`}
@@ -153,8 +153,8 @@ export function Terms() {
             termsp4={`c) provide content and materials for inclusion on the Website and in the Abstract as requested by
             “Planner Addict” and ensure that “PLANNER ADDICT” and the Client have the right to use all intellectual
             property rights associated with the relevant content and materials`}
-            termsp5={`13. The Client shall not use the names, logos or any details of “PLANNER ADDICT” or the University of
-            Edinburgh for any matter.`}
+            termsp5={`13. The Client shall not use the names, logos or any details of “PLANNER ADDICT”.
+        `}
           />
 
           <Termscontent
@@ -221,17 +221,14 @@ export function Terms() {
             Price;`}
             termsp6={`c) if cancelled 40 days prior to the first day of the Event, the cancellation charge shall be 50% of the
             Price;`}
-            termsp7={`d) if cancelled 25 days prior to the first day of the Event, the cancellation charge shall be 75% of the
-            Price;`}
-            termsp8={``}
           />
 
           <Termscontent
             termsh4={`Deposit`}
-            termsp1={`29. A non-refundable deposit of 20% of the Price is payable upon the Commencement Date.`}
-            termsp2={`30. Further deposits may be required depending on the number of Delegates and/or the value of any
-            additional services the Client requests “Planner Addict” to book and/or`}
-            termsp3={`Contract on their behalf.`}
+            termsp1={`28. A non-refundable deposit of 20% of the Price is payable upon the Commencement Date.`}
+            termsp2={`29. Further deposits may be required depending on the number of Delegates and/or the value of any
+            additional services the Client requests “Planner Addict” to book and/or 
+            Contract on their behalf.`}
           />
 
           <Termscontent
@@ -246,18 +243,18 @@ export function Terms() {
             termsp5={`32. For all other bookings:`}
             termsp6={`a) the Client shall make all payments due under the Contract in pounds sterling and within 14 days of
             the date of the relevant invoice or request for payment.`}
-            termsp7={`b) if the Client fails to pay any amount due under the Contract on the due date, “PLANNER ADDICT”
-            may charge interest at an annual rate of 3% above the base rate for the`}
-            termsp8={`time being of Royal Bank of Scotland plc for the period from the due date up to and including the date of
-            receipt.`}
-            termsp9={`c) the Client shall notify “PLANNER ADDICT” of any disputed amounts within 5 working days of the date
+            // termsp7={`b) if the Client fails to pay any amount due under the Contract on the due date, “PLANNER ADDICT”
+            // may charge interest at an annual rate of 3% above the base rate for the`}
+            // termsp8={`time being of Royal Bank of Scotland plc for the period from the due date up to and including the date of
+            // receipt.`}
+            termsp9={`b) the Client shall notify “PLANNER ADDICT” of any disputed amounts within 5 working days of the date
             of the invoice or request for payment and the Client shall pay the`}
             termsp10={`undisputed amount within 14 days of the date of the invoice; the disputed amount alone may be
             withheld until the dispute is resolved.`}
-            termsp11={`d) all payments by the Client to “PLANNER ADDICT” shall be made without deduction or set off.`}
+            termsp11={`c) all payments by the Client to “PLANNER ADDICT” shall be made without deduction or set off.`}
           />
 
-          <Termscontent
+          {/* <Termscontent
             termsh4={`Payment terms for Delegates`}
             termsp1={`33. Payment must be made in full by the Delegate for the Delegate’s registration to be confirmed. There
             are two payment options:`}
@@ -295,9 +292,9 @@ export function Terms() {
             confirm the Delegate’s place has been cancelled`}
             termsp23={`41. The Client’s account will be closed (including disbursement of final monies) 30 days after the date of
             their event.`}
-          />
+          /> */}
 
-          <Termscontent
+          {/* <Termscontent
             termsh4={`Delegate cancellation and refunds `}
             termsp1={`42. The Client is responsible for setting and agreeing communication by “PLANNER ADDICT” of the
             delegate terms and conditions specific to the Event.`}
@@ -307,8 +304,8 @@ export function Terms() {
             administration charge per cancellation or substitution as defined in the Booking Contract.`}
             termsp4={`45. The Client agrees to reimburse “PLANNER ADDICT” for the refund made to the delegates as per
             clause 43 and administration charge as per clause 44.`}
-          />
-          <Termscontent
+          /> */}
+          {/* <Termscontent
             termsh4={`Financial`}
             termsp1={`46. “PLANNER ADDICT” will:`}
             termsp2={`a) provide a separate area within the UOEAL bank account.`}
@@ -317,86 +314,86 @@ export function Terms() {
             termsp5={`d) provide stage payments to the Client as required and agreed in the Client Payment Information.`}
             termsp6={`e) deliver the remaining funds to the Client within a period after the event end date, as defined in the
             Booking Contract.`}
-          />
+          /> */}
 
           <Termscontent
             termsh4={`Information/Data`}
-            termsp1={`47. Information and data belonging to the Client and used by “PLANNER ADDICT” for delegate
-            registration purposes will remain the sole property of the Client. Except with the express`}
-            termsp2={`Written permission of the Client or if required by law or regulation, “PLANNER ADDICT” will not disclose
+            termsp1={`33. Information and data belonging to the Client and used by “PLANNER ADDICT” for Event
+            purposes will remain the sole property of the Client. Except with the express
+            Written permission of the Client or if required by law or regulation, “PLANNER ADDICT” will not disclose
             or use this information for any purpose other than those associated with the Service.`}
-            termsp3={`48. “PLANNER ADDICT” undertakes to maintain database management procedures in compliance with
-            the Data Protection Act 1998 (the “DPA”).`}
-            termsp4={`49. The Client warrants that it has notified with the Information Commissioner as a data controller (as
+            termsp3={`34. “PLANNER ADDICT” undertakes to maintain database management procedures in compliance with
+            the Data Protection Act 2018 (the “DPA”).`}
+            termsp4={`35. The Client warrants that it has notified with the Information Commissioner as a data controller (as
                 defined in the DPA) if it is legally required to do so and shall ensure that it is Compliant with the terms of
                 the DPA and has sufficient authority to pass any data to “Planner Addict”.`}
           />
 
           <Termscontent
             termsh4={`Intellectual Property Rights`}
-            termsp1={`50. As between the Client and “PLANNER ADDICT”, all intellectual property rights and all other rights in
+            termsp1={`36. As between the Client and “PLANNER ADDICT”, all intellectual property rights and all other rights in
             and/or resulting from the provision of the Service shall be owned by “PLANNER ADDICT” First.
             “PLANNER ADDICT” licenses all such rights to the Client on a non-exclusive, worldwide basis to such
             extent as is necessary to enable the Client to make reasonable use of The Service. If this Contract is
             terminated, this licence will automatically terminate.`}
-            termsp2={`51. Any intellectual property rights developed prior to or out with the scope of this Contract shall remain
+            termsp2={`37. Any intellectual property rights developed prior to or out with the scope of this Contract shall remain
             the property of the party that introduced the same and they will grant to the Other party, a non-exclusive, royalty free licence to use the same for the purpose of fulfilling their obligations under the
             Contract.`}
-            termsp3={`52. If the Client provides any logos, trade marks, copyright or any materials (“Client IP”) to “PLANNER
+            termsp3={`38. If the Client provides any logos, trade marks, copyright or any materials (“Client IP”) to “PLANNER
             ADDICT” for the Website the Abstract or for the purpose of delivering the Service, “PLANNER ADDICT”
             shall have a licence to use the intellectual property rights in any such Client IP for the purpose of
             delivering the Service only.`}
-            termsp4={`53. The Client warrants that it has sufficient rights in the Client IP to licence it to “PLANNER ADDICT”
+            termsp4={`39. The Client warrants that it has sufficient rights in the Client IP to licence it to “PLANNER ADDICT”
             under this Contract and will indemnity “PLANNER ADDICT” against any and all loss Incurred as a result
             of the use of such Client IP.`}
           />
 
           <Termscontent
             termsh4={`Confidentiality`}
-            termsp1={`54. The Client shall keep in strict confidence all technical or commercial know-how, specifications,
-            inventions, processes or initiatives which are of a confidential nature and have`}
-            termsp2={`Been disclosed to the Client by “PLANNER ADDICT”, its employees, agents, consultants or
+            termsp1={`40. The Client shall keep in strict confidence all technical or commercial know-how, specifications,
+            inventions, processes or initiatives which are of a confidential nature and have 
+            Been disclosed to the Client by “PLANNER ADDICT”, its employees, agents, consultants or
             subcontractors and any other confidential information concerning “PLANNER ADDICT” Business or its
             products which the Client may obtain.`}
-            termsp3={`55. The Client may disclose such information:`}
+            termsp3={`41. The Client may disclose such information:`}
             termsp4={`a) to its employees, officers, representatives, advisers, agents or subcontractors who need to know such
-            information for the purposes of carrying out the Client’s`}
-            termsp5={`obligations under this Contract; and`}
+            information for the purposes of carrying out the Client’s 
+          obligations under this Contract; and`}
             termsp6={`b) as may be required by law, court order or any governmental or regulatory authority.`}
-            termsp7={`56. The Client shall ensure that its employees, officers, representatives, advisers, agents or
-            subcontractors to whom it discloses such information comply with clauses 54 to 57.`}
-            termsp8={`57. The Client shall not use any such information for any purpose other than to perform its obligations
+            termsp7={`42. The Client shall ensure that its employees, officers, representatives, advisers, agents or
+            subcontractors to whom it discloses such information comply with clauses 40 to 43.`}
+            termsp8={`43. The Client shall not use any such information for any purpose other than to perform its obligations
             under this Contract.`}
           />
 
           <Termscontent
             termsh4={`Liability – please read carefully`}
-            termsp1={`58. Subject to clause 60, the entire liability of “PLANNER ADDICT” in connection with the Contract
+            termsp1={`44. Subject to clause 46, the entire liability of “PLANNER ADDICT” in connection with the Contract
             whether for negligence, breach of contract, misrepresentation or otherwise, is limited`}
             termsp2={`To an amount equal to the Price.`}
-            termsp3={`59. Subject to clause 60, the liability of “PLANNER ADDICT” in connection with the Contract whether for
+            termsp3={`45. Subject to clause 46, the liability of “PLANNER ADDICT” in connection with the Contract whether for
             negligence, breach of contract, misrepresentation or otherwise, will not extend To any special, indirect or consequential damages or losses, or any loss of profits, loss of revenue, loss of
             data, loss of contracts or opportunity, whether direct or indirect, even`}
             termsp4={`If the Client has advised “PLANNER ADDICT” of the possibility of those losses, or if they were within
             “PLANNER ADDICT” contemplation.`}
-            termsp5={`60. Nothing in these conditions shall operate to exclude or restrict either party’s liability for:`}
+            termsp5={`46. Nothing in these conditions shall operate to exclude or restrict either party’s liability for:`}
             termsp6={`a) death or personal injury resulting from negligence.`}
             termsp7={`b) fraud or deceit.`}
-            termsp8={`61. The Client shall indemnify, keep indemnified and hold “PLANNER ADDICT” harmless from and
+            termsp8={`47. The Client shall indemnify, keep indemnified and hold “PLANNER ADDICT” harmless from and
             against all claims, actions, damages, liabilities and costs (including professional fees)`}
             termsp9={`Which may be brought against or incurred or suffered by “PLANNER ADDICT”, its employees or agents
             in connection with the Service which arise as a result of or due to the actions, Omissions, or negligence
             of the Client, its employees or agents or others whom it is responsible, or any Delegate. `}
-            termsp10={`62. “PLANNER ADDICT” will have no liability to the Client and/or the Delegate when they are not at
+            termsp10={`48. “PLANNER ADDICT” will have no liability to the Client and/or the Delegate when they are not at
             “PLANNER ADDICT” premises, even if any such liability is incurred at a location which “PLANNER
             ADDICT” has organised an alternative venue for delivery of the Event and/or organised as part of the
             relevant social programme as part of the delivery of the Service as Specified in the Booking Contract.`}
-            termsp11={`63. “PLANNER ADDICT” gives notice that all arrangements for transport and conveyance, or for any
+            termsp11={`49. “PLANNER ADDICT” gives notice that all arrangements for transport and conveyance, or for any
             other services, are made by them as agents, upon the express condition that they Shall not be liable for
             any injury, damage, loss, accident, delay or irregularity howsoever caused which might occur due to the
             act, omission fault or negligence of any suppliers Or subcontractors engaged in carrying out contracted
             arrangements for the Client.`}
-            termsp12={`64. The Client shall effect and maintain adequate insurance cover (including professional indemnity
+            termsp12={`50. The Client shall effect and maintain adequate insurance cover (including professional indemnity
             insurance and event and public liability insurance) to cover all liabilities under The Contract, with a
             reputable insurer approved by “PLANNER ADDICT” and shall, on “PLANNER ADDICT” request, produce
             both the insurance certificate giving details of cover and the Receipt for the current year’s premium in
@@ -405,32 +402,33 @@ export function Terms() {
 
           <Termscontent
             termsh4={`General`}
-            termsp1={`65. The Client shall comply with all applicable laws, statutes, regulations relating to anti-bribery and
+            termsp1={`51. The Client shall comply with all applicable laws, statutes, regulations relating to anti-bribery and
             anti-corruption including but not limited to the Bribery Act 2010.`}
-            termsp2={`66. ‘Force Majeure’ means any circumstance beyond the control of “PLANNER ADDICT” including, but
+            termsp2={`52. ‘Force Majeure’ means any circumstance beyond the control of “PLANNER ADDICT” including, but
             not limited to acts of God, fire, explosion, adverse weather conditions, flood, Earthquake, failure of
             energy sources or transport network, terrorism, riot, civil commotion, war, hostilities, strikes, work stoppages, slow-downs, or other industrial disputes, Accidents, riots or civil disturbances, acts of
             government, lack of power, non-performance or delays by suppliers or materials shortages.`}
-            termsp3={`67. “PLANNER ADDICT” shall not be liable to the other of loss or damages arising from prevention or
+            termsp3={`53. “PLANNER ADDICT” shall not be liable to the other of loss or damages arising from prevention or
             delay in performance of this Contract where same is a result of Force Majeure. For the avoidance of
             doubt, nothing shall excuse the Client from any payment obligations under the Contract.`}
-            termsp4={`68. If “PLANNER ADDICT” is prevented or hindered from hosting the event by a Force Majeure event,
+            termsp4={`54. If “PLANNER ADDICT” is prevented or hindered from hosting the event by a Force Majeure event,
             “PLANNER ADDICT” may, at its sole option and without being liable for any loss or Damage suffered by
             the Client or Delegates, relocate the event to another location or terminate the Contract forthwith by
             giving notice to that effect to the Client.`}
-            termsp5={`69. The benefit of this Contract may not be assigned by the Client without the prior written consent of
+            termsp5={`55. The benefit of this Contract may not be assigned by the Client without the prior written consent of
             “PLANNER ADDICT”.`}
-            termsp6={`70. This Contract and any document referred to herein represent the whole understanding of the parties
-            with regard to the subject matter hereof. Each and every provision in this Contract shall be read (where
+            termsp6={`56. This Contract and any document referred to herein represent the whole understanding of the parties
+            with regard to the subject matter here of Each and every provision in this Contract shall be read (where
             possible) as entirely independent and severable from the other or others. In all cases where a provision
             of this Contract is reducible, invalid or unenforceable in terms of any legislation or other legal authority,
             such provision shall not affect the validity of the remaining portion of this Contract which shall remain in
             force And effect.`}
-            termsp7={`71. No variation or alteration of any of these Terms and Conditions shall be effective unless it is in
+            termsp7={`57. No variation or alteration of any of these Terms and Conditions shall be effective unless it is in
             writing and signed by or on behalf of each party`}
-            termsp8={`72. Indian law shall govern this Contract and the parties to this Contract submit to the exclusive
+            termsp8={`58. Indian law shall govern this Contract and the parties to this Contract submit to the exclusive
             jurisdiction of the indian courts.`}
           />
+
           <Termscontent
             termsh6={`* These are General terms & conditions and varies for each and every
             service which is chosen by the client for more information please
@@ -441,4 +439,35 @@ export function Terms() {
       <Plannerfooter />
     </div>
   )
+}
+
+{
+  /* <Termscontent
+            termsh4={``}
+            termsp1={``}
+            termsp2={``}
+            termsp3={``}
+            termsp4={``}
+            termsp5={``}
+            termsp6={``}
+            termsp7={``}
+            termsp8={``}
+            termsp9={``}
+            termsp10={``}
+            termsp11={``}
+            termsp12={``}
+            termsp13={``}
+            termsp14={``}
+            termsp15={``}
+            termsp16={``}
+            termsp17={``}
+            termsp18={``}
+            termsp19={``}
+            termsp20={``}
+            termsp21={``}
+            termsp22={``}
+            termsp23={``}
+            termsp24={``}
+            termsp25={``}
+          /> */
 }

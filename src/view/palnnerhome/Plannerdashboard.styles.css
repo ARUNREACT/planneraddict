@@ -225,8 +225,10 @@
     z-index: -1;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url(https://i.pinimg.com/564x/f5/72/9d/f5729de965dbd52bc8694bc74f12386b.jpg);
+    /* background-image: url(https://i.pinimg.com/564x/f5/72/9d/f5729de965dbd52bc8694bc74f12386b.jpg); */
+    background-image: url(https://i.pinimg.com/564x/42/98/5b/42985bb80d230cbf0e2f403f38619027.jpg);
 }
 
 
