@@ -130,39 +130,53 @@ export function Plannerdashboard() {
             data-aos="slide-up"
           >
             <Services
-              serviceimg={require('../../asset/services /services3.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/6a/c2/8d/6ac28d1342af096b2b22891837f683e2.jpg'
+              }
               servicename={'BRIDAL MAKEUP'}
             />
             <Services
-              serviceimg={require('../../asset/services /services7.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/02/a2/0f/02a20f358623bc94240154c098501dfb.jpg'
+              }
               servicename={'LED WALL'}
             />
             <Services
-              serviceimg={require('../../asset/services /services2.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/f9/71/34/f9713496205c88f4d5d2fd5c919301c7.jpg'
+              }
               servicename={'TENT'}
             />
             <Services
-              serviceimg={require('../../asset/services /services4.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/9c/17/08/9c1708435fb5cf5ff72e84de4061a5f7.jpg'
+              }
               servicename={'CATERING'}
             />
             <Services
-              serviceimg={require('../../asset/services /services8.png')}
+              serviceimg={require('../../asset/services /photo.png')}
               servicename={'PHOTOGRAPHY'}
             />
             <Services
-              serviceimg={require('../../asset/services /services9.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/c5/17/22/c5172269a589c11685ec623b3bf0b2d6.jpg'
+              }
               servicename={'CORPORATE EVENT'}
             />
             <Services
-              serviceimg={require('../../asset/services /services6.png')}
+              serviceimg={
+                'https://www.bax-shop.nl/blog/wp-content/uploads/2019/06/blog_line_arrays.jpg'
+              }
               servicename={'SOUND SYSTEM'}
             />
             <Services
-              serviceimg={require('../../asset/services /services5.png')}
+              serviceimg={require('../../asset/services /lighting-decoration.png')}
               servicename={'LIGHTING'}
             />
             <Services
-              serviceimg={require('../../asset/services /services1.png')}
+              serviceimg={
+                'https://emcsolutions.com/wp-content/uploads/2021/03/17-Generator-Sizing_a-edited.jpg'
+              }
               servicename={'GENERATOR'}
             />
             <Services
@@ -183,7 +197,9 @@ export function Plannerdashboard() {
               servicename={'TATTOO,MAGICAN, CARICATURE, CARTOON CHARACTER'}
             />
             <Services
-              serviceimg={require('../../asset/services /services14.png')}
+              serviceimg={
+                'https://i.pinimg.com/564x/05/bc/7b/05bc7bbc078c5812c4b4f8d4163b0ca3.jpg'
+              }
               servicename={'MENHDI ARTIST'}
             />
             {/* <Services
