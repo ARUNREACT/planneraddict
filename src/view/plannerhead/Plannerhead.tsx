@@ -8,7 +8,7 @@ export function Plannerheader() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img className="logo" src={require('../../asset/logo.png')}></img>
           <img
             className="logoname"

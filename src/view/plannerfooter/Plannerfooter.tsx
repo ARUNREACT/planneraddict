@@ -26,7 +26,7 @@ export function Plannerfooter() {
                     <span>About us</span>
                   </p>
                 </a>
-                <a href="/categories">
+                <a href="/subcategories">
                   <p>
                     <span>Categories</span>
                   </p>

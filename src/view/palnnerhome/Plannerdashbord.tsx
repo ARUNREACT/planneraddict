@@ -200,9 +200,9 @@ export function Plannerdashboard() {
 
       <>
         <div className="banner1">
-          <div className="banner1img"></div>
-          <div className="banner1text col-12">
-            <div className="banner1textin col-lg-7 ">
+          <div className="banner1img "></div>
+          <div className="banner1text pt-5 col-12">
+            <div className="banner1textin col-lg-7">
               <h1 data-aos="fade-up">"𝐇𝐔𝐑𝐑𝐘 𝐍𝐎𝐖"</h1>
               <p data-aos="fade-up">
                 𝐁𝐎𝐎𝐊 𝐘𝐎𝐔𝐑 𝐒𝐋𝐎𝐓𝐒 𝐓𝐇𝐑𝐄𝐄 𝐌𝐎𝐍𝐓𝐇𝐒 𝐁𝐄𝐅𝐎𝐑𝐄 𝐅𝐈𝐑𝐒𝐓 𝐂𝐎𝐌𝐄 𝐅𝐈𝐑𝐒𝐓 𝐏𝐑𝐈𝐎𝐑𝐈𝐓𝐘 .
@@ -232,14 +232,22 @@ export function Plannerdashboard() {
                 className="img-flui"
                 data-aos="slide-up"
                 src={require('../../asset/planner-logo.png')}
-                alt=""
+                alt="logo"
                 height="100px"
               />
 
-              <p data-aos="fade-up">𝐁𝐄𝐇𝐀𝐋𝐅</p>
-              <p data-aos="fade-up">𝐎𝐅</p>
-              <p data-aos="fade-up">"𝐑𝐎𝐘𝐀𝐋 𝐒𝐎𝐔𝐍𝐃 𝐒𝐘𝐒𝐓𝐄𝐌"</p>
-              <p data-aos="fade-up">𝐒𝐈𝐍𝐂𝐄 𝟏𝟗𝟕𝟔</p>
+              <p className="m-2" data-aos="fade-up">
+                𝐁𝐄𝐇𝐀𝐋𝐅
+              </p>
+              <p className="m-2" data-aos="fade-up">
+                𝐎𝐅
+              </p>
+              <p className="m-2" data-aos="fade-up">
+                "𝐑𝐎𝐘𝐀𝐋 𝐒𝐎𝐔𝐍𝐃 𝐒𝐘𝐒𝐓𝐄𝐌"
+              </p>
+              <p className="m-2" data-aos="fade-up">
+                𝐒𝐈𝐍𝐂𝐄 𝟏𝟗𝟕𝟔
+              </p>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export function About() {
       </div>
 
       <div className="container mt-3 text-center p-1">
-        <h1 className="text-dark" data-aos="slide-right">
+        <h1 style={{ color: '#612f61' }} data-aos="slide-right">
           𝐏𝐋𝐀𝐍𝐍𝐄𝐑 𝐀𝐃𝐃𝐈𝐂𝐓
         </h1>
         <p className="mt-lg-4" data-aos="slide-up">
@@ -99,40 +99,40 @@ export function About() {
         </Swiper>
       </div>
 
-      <div className="row mx-0 mt-5 align-items-center ">
+      <div className="row mx-0 mt-5 align-items-center four-pics-content">
         <div className="col-lg-6 col-md-12  text-center ">
-          <h4 className="fw-bold">Make Planning decisions</h4>
+          <h5>𝐌𝐚𝐤𝐞 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐝𝐞𝐜𝐢𝐬𝐢𝐨𝐧𝐬</h5>
 
-          <p className="p-lg-2" data-aos="slide-up">
+          <p className="px-lg-4" data-aos="slide-up">
             We provide event management services to companies from different
             industries.
           </p>
 
-          <p className="p-lg-2" data-aos="slide-up">
+          <p className="px-lg-4" data-aos="slide-up">
             We have a vast vendor network of Hotels and partners who help us
             provide the best and most cost effective event services to our
             clients.
           </p>
 
-          <p className="p-lg-2" data-aos="slide-up">
+          <p className="px-lg-4" data-aos="slide-up">
             Our focus is to align your event objectives with modern concepts to
             deliver creative and engaging event experiences to your attendees.
           </p>
 
-          <h5 className="mt-3 p-2 fw-bold" data-aos="slide-up">
-            OUR EVENT MANAGEMENT PHILOSOPHY
+          <h5 className="mt-3 p-2" data-aos="slide-up">
+            𝐎𝐔𝐑 𝐄𝐕𝐄𝐍𝐓 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐏𝐇𝐈𝐋𝐎𝐒𝐎𝐏𝐇𝐘
           </h5>
-          <p className="p-lg-2" data-aos="slide-up">
+          <p className="px-lg-4" data-aos="slide-up">
             To make our clients event planning processes simple by offering
             reliable and impactful services.The experience our clients get from
             working with us is always as important as the experience we deliver
             to the events audiences.
           </p>
 
-          <h5 className="mt-3 p-2 fw-bold" data-aos="slide-up">
-            OUR EVENT MANAGEMENT STRATEGY
+          <h5 className="mt-3 p-2" data-aos="slide-up">
+            𝐎𝐔𝐑 𝐄𝐕𝐄𝐍𝐓 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐒𝐓𝐑𝐀𝐓𝐄𝐆𝐘
           </h5>
-          <p className="p-lg-2" data-aos="slide-up">
+          <p className="px-lg-4" data-aos="slide-up">
             We identify key focus areas for every event we plan and consult you
             about what works best and what can help you derive maximum return on
             your investment.

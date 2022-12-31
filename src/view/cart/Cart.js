@@ -66,22 +66,22 @@ export const Contactus = () => {
 
           <div className='col-xl-5 col-12 contactus-content' style={{ zIndex: '1' }}>
             <div className='col-12'>
-              <p data-aos="slide-up">Vendors</p>
+              <h4 data-aos="slide-up">Vendors</h4>
               <p data-aos="slide-up">If you are a registered vendor or a business looking to promote your brand on our portal, please send in your queries at vendors <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
-              <p data-aos="slide-up">Marketing Collaborations</p>
+              <h4 data-aos="slide-up">Marketing Collaborations</h4>
               <p data-aos="slide-up">For brand collaborations - sponsored content, social media activations etc., please write into partnerships <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
-              <p data-aos="slide-up">Careers</p>
+              <h4 data-aos="slide-up">Careers</h4>
               <p data-aos="slide-up">We are a team of passionate young minds looking to reinvent the wedding space. If any one intrested please email us at <span> info@planneraddict.in</span></p>
             </div>
 
             <div className='col-12'>
-              <p data-aos="slide-up">Customers</p>
+              <h4 data-aos="slide-up">Customers</h4>
               <p data-aos="slide-up">We love to hear from our precious users. For any feedback or queries simply write in to info <span> info@planneraddict.in</span></p>
             </div>
           </div>

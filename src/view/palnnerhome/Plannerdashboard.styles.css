@@ -1,3 +1,11 @@
+/* #612f61 
+
+#848484
+
+#5b4f5b
+*/
+
+
 .kk {
     background-position: center;
     background-repeat: no-repeat;
@@ -12,27 +20,26 @@
     align-items: center;
     /* margin-top: 50px; */
     z-index: -1;
-    background-color: #0a7e7e;
+    /* background-color: #0a7e7e; */
 
 }
 
 
 .banner1img {
     position: absolute;
-    height: 120vh;
+    height: 110%;
     width: 100%;
     z-index: 0;
     filter: blur(5px);
-    /* background-position-y: center; */
+    /* background-position: center; */
     /* background-repeat: no-repeat, repeat; */
     background-size: cover;
     background-attachment: fixed;
     /* background-blend-mode:multiply;
     background-position: right bottom, left top; */
-    /* background-image: url("../../asset//background.png"),url("https://images.livemint.com/img/2021/11/10/1600x900/wedding-kLcC--621x414@LiveMint_1636543254905.jpg"); */
     /* background-image: url("https://img.freepik.com/premium-vector/watercolor-floral-background-pastel-colors_23-2148437682.jpg?w=2000"); */
-    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201124/pngtree-floral-purple-watercolor-background-image_498978.jpg"); */
-    background-image: url(../../asset//arun.jpg);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201124/pngtree-floral-purple-watercolor-background-image_498978.jpg");
+    /* background-image: url(https://i.pinimg.com/564x/96/61/dd/9661dd2f22f13f62b87c343df98c0fc9.jpg); */
 }
 
 .banner1text h1 {
@@ -109,13 +116,8 @@
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-attachment: fixed !important;
-    /* background-image: url("https://yougraphy-blog.canvera.com/wp-content/uploads/2017/02/Kiran-Kallur-2.jpg"); */
-    /* background-image: url("https://junebugweddings.com/wedding-blog/wp-content/uploads/2021/01/gorgeous-villa-artimino-intimate-indian-wedding-nicola-tonolini-38.jpg"); */
     /* background-image: url("https://i.pinimg.com/originals/97/19/96/971996011f2af8e98c9f9e0e1c5d63c9.gif"); */
-    /* background-image: url("https://www.alfaazphotography.com/wp-content/uploads/2019/10/How-to-find-right-Indian-Wedding-Photographer-0028.jpg"); */
-    /* background-image: url(https://i.pinimg.com/originals/b8/3f/2b/b83f2b37c45bd234a512fa4503426d62.jpg); */
-    /* background-image: url(https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/09/1552561678_i_xLvmDxd_X2.jpg); */
-    background-image: url(https://i.pinimg.com/736x/ae/ed/ca/aeedca505cb735ce96e1c3c159dd54fb.jpg);
+    background-image: url(https://i.pinimg.com/originals/b8/3f/2b/b83f2b37c45bd234a512fa4503426d62.jpg);
 }
 
 @media screen and (max-width: 576px) {
@@ -154,10 +156,10 @@
     /* padding: 100px; */
     text-align: center;
     line-height: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15.6px;
     letter-spacing: 2.5px;
-    font-weight: 500;
+    font-weight: 900;
 
 }
 
@@ -169,7 +171,7 @@
     /* background: linear-gradient(to right, #c9c7bd80, #f2f2f29f, #dbdbdb9d, #eaeaea96); */
 
     border: 1px solid rgba(255, 254, 254, 0.918);
-    background: #000000a9;
+    background: #ffffff50;
     box-shadow: inset 1px 1px 10px #dbdbdb,
         inset -1px -1px 10px #dbdbdb;
 
@@ -472,7 +474,7 @@
 }
 
 .cate1 h3 {
-    color: #000000;
+    color: #612f61;
     letter-spacing: 2px;
     /* margin-bottom: 10px; */
     /* font-weight: 500; */
@@ -514,7 +516,7 @@
     height: 70px;
     position: absolute;
     filter: blur(3px);
-    background-image: url(https://i.pinimg.com/736x/38/ae/9a/38ae9a3ea1c1fd349ea50e170ab8ec7a.jpg);
+    background-image: url(https://i.pinimg.com/564x/a9/d6/83/a9d683ac3cbb4e533e2705bed39061e4.jpg);
     background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
@@ -524,7 +526,7 @@
 .textimgtext h1 {
     margin: 0;
     padding: 15px;
-    color: rgb(255, 255, 255);
+    color: white;
     letter-spacing: 10px;
     /* background: linear-gradient(to left, #ffffffe1, #cb5ff53f); */
 
