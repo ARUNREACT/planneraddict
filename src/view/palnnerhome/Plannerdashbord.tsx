@@ -137,10 +137,11 @@ export function Plannerdashboard() {
             />
             <Services
               serviceimg={
-                'https://i.pinimg.com/564x/02/a2/0f/02a20f358623bc94240154c098501dfb.jpg'
+                'https://i.pinimg.com/564x/05/bc/7b/05bc7bbc078c5812c4b4f8d4163b0ca3.jpg'
               }
-              servicename={'LED WALL'}
+              servicename={'MENHDI ARTIST'}
             />
+
             <Services
               serviceimg={
                 'https://i.pinimg.com/564x/f9/71/34/f9713496205c88f4d5d2fd5c919301c7.jpg'
@@ -169,6 +170,7 @@ export function Plannerdashboard() {
               }
               servicename={'SOUND SYSTEM'}
             />
+
             <Services
               serviceimg={require('../../asset/services /lighting-decoration.png')}
               servicename={'LIGHTING'}
@@ -183,25 +185,32 @@ export function Plannerdashboard() {
               serviceimg={require('../../asset/services /services10.png')}
               servicename={'GERMAN TENT'}
             />
-
             <Services
-              serviceimg={require('../../asset/services /services11.png')}
-              servicename={'EXHIBITION ORGANIZTIONG'}
+              serviceimg={
+                'https://i.pinimg.com/564x/02/a2/0f/02a20f358623bc94240154c098501dfb.jpg'
+              }
+              servicename={'LED WALL'}
             />
             <Services
-              serviceimg={require('../../asset/services /services12.png')}
-              servicename={'AMUSMENTS'}
-            />
-            <Services
-              serviceimg={require('../../asset/services /services13.png')}
-              servicename={'TATTOO,MAGICAN, CARICATURE, CARTOON CHARACTER'}
+              serviceimg={require('../../asset/services /caricature.png')}
+              servicename={'CARICATURE, CARTOON'}
             />
             <Services
               serviceimg={
-                'https://i.pinimg.com/564x/05/bc/7b/05bc7bbc078c5812c4b4f8d4163b0ca3.jpg'
+                'http://web.berojgarhindi.com/wp-content/uploads/2022/07/From-Gardens-to-Rollercoasters-3.jpg'
               }
-              servicename={'MENHDI ARTIST'}
+              servicename={'AMUSMENTS'}
             />
+            <Services
+              serviceimg={require('../../asset/services /exhibition-organising.png')}
+              servicename={'EXHIBITION ORGANISING'}
+            />
+
+            <Services
+              serviceimg={require('../../asset/services /tatoo.png')}
+              servicename={'TATOO, MAGICIAN'}
+            />
+
             {/* <Services
                             serviceimg={require('../../asset/services /services12.png')}
                             servicename={'EXHIBITION'}
